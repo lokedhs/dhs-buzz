@@ -1,0 +1,71 @@
+<component name="libraryTable">
+  <library name="google-apis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-blogger-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-analytics-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-analytics-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-xml-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-xml-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-util-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-repackaged-com-google-common-base-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-json-rpc2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-json-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-javanet-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-http-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-xml-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-json-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-auth-storage-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-auth-oauth-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-auth-clientlogin-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-auth-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-auth-authsub-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-escape-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-googleapis-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-auth-oauth-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-auth-oauth2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-apache-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-auth-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-client-android-xml-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-moderator-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-migration-v1-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-picasa-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-picasa-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-sidewiki-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-sidewiki-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-sites-v1-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-sites-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-health-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-gbase-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-latitude-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-health-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-maps-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-latitude-v1-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-migration-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-maps-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-codesearch-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-contacts-v3-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-contacts-v3-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-docs-v3-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-docs-v3-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-finance-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-finance-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-gbase-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-blogger-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-books-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-books-v1-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-buzz-v1-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-buzz-v1-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-calendar-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-calendar-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-codesearch-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-youtube-v2-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-youtube-v2-atom-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-spreadsheet-v3-1.0.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gdata/google-api-data-spreadsheet-v3-atom-1.0.0-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/src/gdata-java-client-2-read-only/gdata/src" />
+    </SOURCES>
+  </library>
+</component>

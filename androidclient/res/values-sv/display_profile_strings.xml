@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="display_profile_display_posts">Visa buzz från {0}</string>
+    <string name="display_profile_interests_title">Intressen:</string>
+    <string name="display_profile_load_error">Fel vid laddning: {0}</string>
+    <string name="display_profile_loading_message">Laddar profil…</string>
+    <string name="display_profile_user_followed_by">{0} följer dig</string>
+    <string name="display_profile_user_following">du följer {0}</string>
+    <string name="display_profile_window_title">Profil</string>
+</resources>

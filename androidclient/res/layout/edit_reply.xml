@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- Bottom non-scrollable part. Contains the reply text field. -->
+    <RelativeLayout android:id="@+id/bottom_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true">
+
+        <!-- Button to the right of the text field -->
+        <Button android:id="@+id/post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_reply_post"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:onClick="postReplyClicked"/>
+
+        <!-- The input text field uses the remaining available space -->
+        <org.atari.dhs.buzztest.androidclient.tools.posteditor.PostEditor
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/post_button"
+                android:minLines="4"
+                android:autoText="true"
+                android:gravity="top"/>
+    </RelativeLayout>
+
+    <!-- This scrollview is only here to force a resize of the text area when the soft keyboard is displayed -->
+    <ScrollView android:id="@+id/content_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/bottom_view">
+        <View android:layout_width="fill_parent"
+              android:layout_height="2000px"
+              android:background="#0000ff00"/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="display_buzz_loading_replies">载入中…</string>
+    <string name="display_buzz_mark_spam">标识为垃圾信息。请确认？</string>
+    <string name="display_buzz_mark_spam_cancel">否</string>
+    <string name="display_buzz_mark_spam_confirm">是</string>
+    <string name="display_buzz_mute_message">隐藏此消息。请确认？</string>
+    <string name="display_buzz_mute_message_cancel">不隐藏</string>
+    <string name="display_buzz_mute_message_confirm">隐藏</string>
+    <string name="display_buzz_show_hidden">显示 {0,number} 隐藏的回复</string>
+    <string name="display_buzz_title">Buzz 来自 {0}</string>
+</resources>

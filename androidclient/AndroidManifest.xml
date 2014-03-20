@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.atari.dhs.buzztest.androidclient"
+          android:versionCode="30"
+          android:versionName="1.0.3">
+    <!-- For white background: android:theme="@android:style/Theme.Light" -->
+    <application android:icon="@drawable/ic_launcher"
+                 android:name="org.atari.dhs.buzztest.androidclient.DhsBuzzApp"
+                 android:label="@string/main_application_name">
+        <activity android:name=".WelcomeScreen" android:label="@string/main_application_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".settings.auth.Authenticate" android:label="Authenticate" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="dhsbuzz-auth"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".settings.Settings" android:label="Settings" android:allowTaskReparenting="false"/>
+
+        <activity android:name=".displayfeed.DisplayFeed" android:label="Feed"
+                  android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+
+        <activity android:name=".displaybuzz.DisplayBuzz" android:label="Buzz"
+                  android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <!--
+        <activity android:name=".displaybuzz.loadhref.ReadHrefActivity" android:label="Load Buzz">
+            <intent-filter android:label="DHS Buzz">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http" android:host="www.google.com" android:pathPattern="/buzz/.*"/>
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity android:name=".post.PostActivity" android:label="Post New Buzz"
+                  android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter android:label="@string/main_share_on">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter android:label="@string/main_share_on">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter android:label="@string/main_share_on">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".post.selectimages.PostSelectImagesActivity"
+                  android:label="@string/post_select_images_window_title"/>
+        <activity android:name=".post.selectlocation.SelectLocationActivity"
+                  android:label="@string/post_select_location_window_title"
+                  android:theme="@android:style/Theme.Dialog"/>
+
+        <activity android:name=".failedtasks.FailedTasks" android:label="Failed Tasks"/>
+        <activity android:name=".displaynew.DisplayNew" android:label="New Replies"/>
+        <activity android:name=".debug.DebugInfoActivity" android:label="Debug Information"/>
+        <activity android:name=".map.DhsBuzzMapActivity" android:label="@string/map_window_title"/>
+        <activity android:name=".displaybuzz.editreply.EditReplyActivity" android:label="Edit Reply"/>
+        <activity android:name=".displayprofile.DisplayProfile" android:label="@string/display_profile_window_title"/>
+        <activity android:name=".userlist.UserList" android:label="@string/user_list_window_title"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".userlist.SearchUserActivity" android:label="@string/search_user_window_title"/>
+        <activity android:name=".translation.TranslateActivity" android:label="@string/translate_window_title"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".displaywatchlist.DisplayWatchlist" android:label="@string/watchlist_window_title"/>
+        <activity android:name=".DemoExpiredActivity" android:label="Beta expired"/>
+        <activity android:name=".NewsActivity" android:label="Release Notes"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".displayprofile.DisplayProfileTabActivity" android:label="Profile"/>
+        <activity android:name=".groups.GroupSelector" android:label="Select Groups"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".displaybuzz.editreshared.EditReshared" android:label="Reshare Comment"/>
+        <activity android:name=".search.realtime.SearchBookmarksActivity" android:label="Realtime Search"/>
+
+        <service android:name=".service.PostMessageService" android:label="Post Message"/>
+        <service android:name=".service.BuzzManagerService" android:label="Buzz Manager Service"/>
+        <service android:name=".search.realtime.RealtimePeriodicUpdateManager" android:label="Realtime update manager"/>
+
+        <service android:name=".c2dm.C2DMRegistrationService" android:label="C2DM Registration"/>
+
+        <receiver android:name=".c2dm.C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <!-- Receive the actual message -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="org.atari.dhs.buzztest.androidclient"/>
+            </intent-filter>
+            <!-- Receive the registration id -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="org.atari.dhs.buzztest.androidclient"/>
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <receiver android:name=".widgets.DhsBuzzWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.atari.dhs.buzz.NEW_FEED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/widget_prefs"/>
+        </receiver>
+        <receiver android:name=".widgets.WidgetUpdateBroadcastReceiver"
+                  android:label="Widget update broadcast receiver">
+            <intent-filter>
+                <action android:name="org.atari.dhs.buzz.UPDATE_WIDGET"/>
+            </intent-filter>
+        </receiver>
+        -->
+
+        <meta-data android:name="android.app.default_searchable" android:value=".displayfeed.DisplayFeed"/>
+
+        <uses-library android:name="com.google.android.maps"/>
+    </application>
+
+    <permission android:name="org.atari.dhs.buzztest.androidclient.permission.C2D_MESSAGE"
+                android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="org.atari.dhs.buzztest.androidclient.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+
+    <uses-sdk android:targetSdkVersion="8" android:minSdkVersion="7"/>
+</manifest>

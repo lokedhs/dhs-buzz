@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="user_list_error_loading">Fel vid laddning av personer: {0}</string>
+    <string name="user_list_loading_progress_title">Laddar personer…</string>
+    <string name="user_list_title_followers">{0} följs av</string>
+    <string name="user_list_title_followers_no_username">Personer som följer</string>
+    <string name="user_list_title_following">{0} följer</string>
+    <string name="user_list_title_following_no_username">Följer personer</string>
+    <string name="user_list_user_followers">{0} följs av {1,number} {1,choice,0#personer|1#person|1&lt;personer}
+    </string>
+    <string name="user_list_user_following">{0} följer {1,number} {1,choice,0#personer|1#person|1&lt;personer}</string>
+    <string name="user_list_window_title">Personer</string>
+</resources>

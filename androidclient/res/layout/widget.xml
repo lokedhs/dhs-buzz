@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/widget_bg">
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+        <TextView android:id="@+id/personal_feed_title"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:text="Personal feed"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"/>
+        <TextView android:id="@+id/personal_feed_number_of_new"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@id/personal_feed_title"
+                  android:layout_below="@id/personal_feed_title"
+                  android:textSize="12sp"
+                  android:textStyle="bold"
+                  android:textColor="@color/black"/>
+    </RelativeLayout>
+</LinearLayout>

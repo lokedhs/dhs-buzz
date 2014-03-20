@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/location_select_loading_row_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <ProgressBar android:id="@+id/progress_bar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentLeft="true"
+                 android:indeterminate="true"
+                 android:padding="8dp"
+                 style="@android:style/Widget.ProgressBar.Small"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/progress_bar"
+              android:layout_centerInParent="true"
+              android:text="Loading locations&#8230;"/>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout style="@style/TitleBar">
+        <!--
+        <ImageView style="@style/TitleBarLogo"
+                   android:contentDescription="Logo"
+                   android:src="@drawable/title_logo"/>
+        -->
+        <TextView android:id="@+id/title_bar_text_view"
+                  style="@style/TitleBarText"
+                  android:text="DHS Buzz"/>
+
+        <View style="@style/TitleBarSpring"/>
+
+        <ImageView style="@style/TitleBarSeparator"/>
+        <ImageButton style="@style/TitleBarAction"
+                     android:id="@+id/btn_title_refresh"
+                     android:contentDescription="Refresh"
+                     android:src="@drawable/ic_title_refresh"
+                     android:onClick="reloadButtonClicked"/>
+        <ProgressBar style="@style/TitleBarProgressIndicator"
+                     android:id="@+id/title_refresh_progress"
+                     android:visibility="gone"/>
+
+        <ImageView android:id="@+id/search_separator"
+                   style="@style/TitleBarSeparator"/>
+
+        <!-- This icon is displayed instead of the search icon if the view is in "search" mode -->
+        <ImageButton android:id="@+id/follow_toolbar_action"
+                     style="@style/TitleBarAction"
+                     android:contentDescription="Follow"
+                     android:src="@drawable/ic_title_realtime"
+                     android:visibility="gone"
+                     android:onClick="toolbarFollowButtonClicked"/>
+
+        <!-- This icon is displayed instead of the search icon if the view is in "realtime" mode -->
+        <ImageButton android:id="@+id/no_follow_toolbar_action"
+                     style="@style/TitleBarAction"
+                     android:contentDescription="Follow"
+                     android:src="@drawable/ic_title_no_realtime"
+                     android:visibility="gone"
+                     android:onClick="toolbarNoFollowButtonClicked"/>
+
+        <!-- The search button is always displayed unless the feed is the result of a search or the view is a realtime view -->
+        <ImageButton android:id="@+id/search_toolbar_action"
+                     style="@style/TitleBarAction"
+                     android:contentDescription="Search"
+                     android:src="@drawable/ic_title_search"/>
+    </LinearLayout>
+
+    <!--
+    <LinearLayout style="@style/TitleBarSmall">
+        <TextView style="@style/TitleBarTextSmall"
+                  android:id="@+id/last_update_status"
+                  android:text="Last update this century"/>
+    </LinearLayout>
+    -->
+
+    <ListView android:id="@+id/message_list"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              style="@style/listStyle"/>
+
+</LinearLayout>

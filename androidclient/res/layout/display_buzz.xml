@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- Bottom non-scrollable part. Contains the reply text field. -->
+    <RelativeLayout android:id="@+id/bottom_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true">
+
+        <!-- Button to the right of the text field -->
+        <Button android:id="@+id/reply_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reply_button_post"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:onClick="postButtonClicked"/>
+
+        <!-- The input text field uses the remaining available space -->
+        <org.atari.dhs.buzztest.androidclient.tools.posteditor.PostEditor
+                android:id="@+id/reply"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/reply_button"
+                android:hint="@string/reply_text_field_hint"
+                android:autoText="true"/>
+    </RelativeLayout>
+
+    <!-- Centre part. Containing the buzz itself and all the replies. -->
+    <ListView android:id="@+id/content_list_view"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_above="@id/bottom_view"
+              style="@style/listStyle"/>
+</RelativeLayout>

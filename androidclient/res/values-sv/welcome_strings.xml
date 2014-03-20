@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="welcome_screen_button_feed">Personlig</string>
+    <string name="welcome_screen_button_map">I världen</string>
+    <string name="welcome_screen_button_nearby">I närheten</string>
+    <string name="welcome_screen_button_post">Skriv</string>
+    <string name="welcome_screen_button_user_search">Personsökning</string>
+    <string name="welcome_screen_button_watchlist">Realtid</string>
+</resources>

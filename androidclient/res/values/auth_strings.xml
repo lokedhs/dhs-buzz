@@ -1,0 +1,14 @@
+<resources>
+    <!-- Message displayed while the response from the OAuth web page is being authenticated -->
+    <string name="auth_requesting_access">Requesting access to Google Buzz service</string>
+
+    <!-- Message displayed during the initial part of authentication, before the user is sent to the OAuth web page -->
+    <string name="auth_request_authentication_with_service">Authenticating with service</string>
+
+    <!-- Text in the button that requests the initial Google Buzz authentication procedure -->
+    <string name="authenticate_request_authentication_button_label">Request Authentication</string>
+
+    <!-- Error message displayed in a toast if there was an IOException while the authentication took place.
+    {0} - The error message from the exception (i.e. "Host is unresolved: www.google.com") -->
+    <string name="authenticate_error">Network error: {0}</string>
+</resources>

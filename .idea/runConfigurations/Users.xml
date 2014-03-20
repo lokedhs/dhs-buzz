@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Users" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <module name="web" />
+    <option name="RUN_PAGE" value="Users.html" />
+    <option name="BROWSER" value="Chrome" />
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method />
+  </configuration>
+</component>

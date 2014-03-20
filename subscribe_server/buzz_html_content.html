@@ -1,0 +1,388 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Pragma" content="no-cache">
+        <style type='text/css'>#gbar, #guser {
+            font-size: 13px;
+            padding-top: 1px !important
+        }
+
+        #gbar {
+            float: left;
+            height: 22px
+        }
+
+        #guser {
+            padding-bottom: 7px !important;
+            text-align: right
+        }
+
+        .gbh, .gbd {
+            border-top: 1px solid #c9d7f1;
+            font-size: 1px
+        }
+
+        .gbh {
+            height: 0;
+            position: absolute;
+            top: 24px;
+            width: 100%
+        }
+
+        #gbs, .gbm {
+            background: #fff;
+            left: 0;
+            position: absolute;
+            text-align: left;
+            visibility: hidden;
+            z-index: 1000
+        }
+
+        .gbm {
+            border: 1px solid;
+            border-color: #c9d7f1 #36c #36c #a2bae7;
+            z-index: 1001
+        }
+
+        .gb1 {
+            margin-right: .5em
+        }
+
+        #gbar .gbsup {
+            color: #c00;
+            font-size: 9px;
+            font-weight: normal;
+            line-height: 9px;
+            margin-left: -.5em;
+            margin-right: .5em;
+            *margin-left: -.5em;
+            *margin-right: .5em
+        }
+
+        .gb1, .gb3 {
+            zoom: 1
+        }
+
+        .gb2 {
+            display: block;
+            padding: .2em .5em
+        }
+
+        .gb2, .gb3 {
+            text-decoration: none;
+            border-bottom: none
+        }
+
+        a.gb1, a.gb2, a.gb3, a.gb4 {
+            color: #00c !important
+        }
+
+        .gbi .gb3, .gbi .gb2, .gbi .gb4 {
+            color: #dd8e27 !important
+        }
+
+        .gbf .gb3, .gbf .gb2, .gbf .gb4 {
+            color: #900 !important
+        }
+
+        a.gb2:hover {
+            background: #36c;
+            color: #fff !important
+        }</style>
+        <link rel="stylesheet" href="http://www.google.com/buzz/c/static/css/306603789-StandaloneBuzz.css">
+        <title>Buzz by Shawn Drape from Mobile</title>
+        <link rel="alternate" type="application/atom+xml"
+              href="https://www.googleapis.com/buzz/v1/activities/101968685409431735765/@public">
+        <link rel="alternate" type="application/atom+xml"
+              href="http://buzz.googleapis.com/feeds/101968685409431735765/comments/z134sblhlzjicnw5204cifgqgvblyrfpfog0k">
+        <script type='text/javascript'>(function() {
+            function i( a, b, c ) {
+                var d = "on" + b;
+                if( a.addEventListener )a.addEventListener( b, c, false ); else if( a.attachEvent ) {
+                    a.attachEvent( d, c );
+                }
+                else {
+                    var h = a[d];
+                    a[d] = function() {
+                        var g = h.apply( this, arguments ),e = c.apply( this, arguments );
+                        return g == undefined ? e : e == undefined ? g : e && g
+                    }
+                }
+            }
+
+            ;
+            var j,k,l,m = window.gbar = {};
+
+            function _tvs( a, b ) {
+                return a || b
+            }
+
+            function _tvn( a, b ) {
+                var c = parseInt( a, 10 );
+                return isNaN( c ) ? b : c
+            }
+
+            function _tvf( a, b ) {
+                var c = parseFloat( a );
+                return isNaN( c ) ? b : c
+            }
+
+            function _tvb( a, b ) {
+                return a == "true" ? true : a == "false" ? false : b
+            }
+
+            var n,o,p;
+
+            function q( a, b, c, d, h, g ) {
+                var e = document.getElementById( a );
+                if( e ) {
+                    var f = e.style;
+                    f.left = d ? "auto" : b + "px";
+                    f.right = d ? b + "px" : "auto";
+                    f.top = c + "px";
+                    f.visibility = o ? "hidden" : "visible";
+                    if( h && g ) {
+                        f.width = h + "px";
+                        f.height = g + "px"
+                    }
+                    else {
+                        q( n, b, c, d, e.offsetWidth, e.offsetHeight );
+                        o = o ? "" : a
+                    }
+                }
+            }
+
+            var r = [],u = function( a ) {
+                a = a || window.event;
+                var b = a.target || a.srcElement;
+                a.cancelBubble = true;
+                if( n == null ) {
+                    a = document.createElement( Array.every || window.createPopup ? "iframe" : "div" );
+                    a.frameBorder = "0";
+                    n = a.id = "gbs";
+                    a.src = "javascript:''";
+                    b.parentNode.appendChild( a );
+                    i( document, "click", s )
+                }
+                var c = b;
+                b = 0;
+                if( c.className != "gb3" )c = c.parentNode;
+                a = c.getAttribute( "aria-owns" ) || "gbi";
+                var d = c.offsetWidth,h = c.offsetTop > 20 ? 46 : 24;
+                if( document.getElementById( "tphdr" ) )h -= 3;
+                var g = false;
+                do b += c.offsetLeft || 0;
+                while( c = c.offsetParent );
+                c = (document.documentElement.clientWidth || document.body.clientWidth) - b - d;
+                var e;
+                d = document.body;
+                var f = document.defaultView;
+                if( f && f.getComputedStyle ) {
+                    if( d = f.getComputedStyle( d, "" ) )e = d.direction
+                }
+                else e = d.currentStyle ? d.currentStyle.direction : d.style.direction;
+                e = e == "rtl";
+                if( a == "gbi" ) {
+                    for( d = 0 ; f = r[d++] ; )f();
+                    t( null, window.navExtra );
+                    if( e ) {
+                        b = c;
+                        g = true
+                    }
+                } else if( !e ) {
+                    b = c;
+                    g = true
+                }
+                o != a && s();
+                q( a, b, h, g )
+            },s = function() {
+                o && q( o, 0, 0 )
+            },t = function( a, b ) {
+                var c,d = document.getElementById( "gbi" ),h = a;
+                if( !h )h = d.firstChild;
+                for( ; b &&
+                       (c = b.pop()) ; ) {
+                    var g = d,e = c,f = h;
+                    p || (p = "gb2");
+                    g.insertBefore( e, f ).className = p
+                }
+            },v = function( a, b, c ) {
+                if( (b = document.getElementById( b )) && a ) {
+                    a.className = "gb4";
+                    var d = document.createElement( "span" );
+                    d.appendChild( a );
+                    d.appendChild( document.createTextNode( " | " ) );
+                    d.id = c;
+                    b.appendChild( d )
+                }
+            };
+            m.qs = l;
+            m.setContinueCb = k;
+            m.pc = j;
+            m.tg = u;
+            m.close = s;
+            m.addLink = v;
+            m.almm = t;
+        })();
+        </script>
+    </head>
+    <body>
+        <div style='margin-top:3px;'>
+            <div id=gbar>
+                <nobr><a target=_blank href="http://mail.google.com/mail/?tab=Fm" class=gb1>Gmail</a> <a target=_blank
+                                                                                                         href="http://www.google.com/calendar/render?tab=Fc"
+                                                                                                         class=gb1>Calendar</a>
+                    <a target=_blank href="http://docs.google.com/?tab=Fo" class=gb1>Documents</a> <a target=_blank
+                                                                                                      href="http://www.google.com/reader/?tab=Fy"
+                                                                                                      class=gb1>Reader</a>
+                    <a target=_blank href="http://www.google.com/webhp?tab=Fw" class=gb1>Web</a> <a
+                            href="http://www.google.com/intl/en/options/" onclick="this.blur();gbar.tg(event);return !1"
+                            aria-haspopup=true class=gb3><u>more</u>
+                        <small>&#9660;</small>
+                    </a>
+
+                    <div class=gbm id=gbi><a target=_blank href="http://picasaweb.google.com/home?tab=Fq" class=gb2>Photos</a>
+                        <a target=_blank href="http://sites.google.com/?tab=F3" class=gb2>Sites</a> <a target=_blank
+                                                                                                       href="http://groups.google.com/grphp?tab=Fg"
+                                                                                                       class=gb2>Groups</a>
+                        <a target=_blank href="http://www.youtube.com/?tab=F1" class=gb2>YouTube</a>
+
+                        <div class=gb2>
+                            <div class=gbd></div>
+                        </div>
+                        <a target=_blank href="http://www.google.com/imghp?tab=Fi" class=gb2>Images</a> <a target=_blank
+                                                                                                           href="http://video.google.com/?tab=Fv"
+                                                                                                           class=gb2>Videos</a>
+                        <a target=_blank href="http://maps.google.com/maps?tab=Fl" class=gb2>Maps</a> <a target=_blank
+                                                                                                         href="http://news.google.com/nwshp?tab=Fn"
+                                                                                                         class=gb2>News</a>
+                        <a target=_blank href="http://www.google.com/prdhp?tab=Ff" class=gb2>Shopping</a> <a
+                                target=_blank href="http://books.google.com/bkshp?tab=Fp" class=gb2>Books</a> <a
+                                target=_blank href="http://translate.google.com/?tab=FT" class=gb2>Translate</a> <a
+                                target=_blank href="http://scholar.google.com/schhp?tab=Fs" class=gb2>Scholar</a> <a
+                                target=_blank href="http://www.google.com/finance?tab=Fe" class=gb2>Finance</a> <a
+                                target=_blank href="http://blogsearch.google.com/?tab=Fb" class=gb2>Blogs</a> <a
+                                target=_blank href="http://www.google.com/realtime?tab=FY" class=gb2>Realtime</a>
+
+                        <div class=gb2>
+                            <div class=gbd></div>
+                        </div>
+                        <a target=_blank href="http://www.google.com/intl/en/options/" class=gb2>even more &raquo;</a>
+                    </div>
+                </nobr>
+            </div>
+            <div id=guser width=100%>
+                <nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a target=_blank
+                                                                                                         id="gb_83"
+                                                                                                         href="http://www.google.com/support/accounts/bin/answer.py?answer=97703&amp;hl=en"
+                                                                                                         class=gb4>Help</a>
+                    | <a id="gb_70"
+                         href="https://www.google.com/accounts/Login?continue=http%3A%2F%2Fwww.google.com%2Fbuzz%2FShawn.drape%2FUF6eGPxoWcg%2FIncident-xkcd-com&amp;service=profiles"
+                         class=gb4>Sign in</a></nobr>
+            </div>
+            <div class=gbh style=left:0></div>
+            <div class=gbh style=right:0></div>
+        </div>
+        <div class="g-doc-800">
+            <div class="g-section">
+                <div id="buzz-root">
+                    <div class="CSS_PROFILES_UPDATE CSS_PROFILES_UPDATE_BODY_IS_LONG "
+                         id="update-z134sblhlzjicnw5204cifgqgvblyrfpfog0k" oid="101968685409431735765">
+                        <div class="CSS_UPDATES_UCW_UPDATE_ROW">
+                            <div class="CSS_UNREAD_INDICATOR CSS_UNREAD_INDICATOR_UPDATE_LEFT"></div>
+                            <div class="CSS_UNREAD_INDICATOR CSS_UNREAD_INDICATOR_UPDATE_RIGHT"></div>
+                            <span class="CSS_UPDATES_UCW_SENDER_IMG_SPAN"><a href="/profiles/101968685409431735765"
+                                                                             oid="101968685409431735765"><img
+                                    src="/buzz/c/photos/public/AIbEiAIAAABDCNWbsb2wnoupGyILdmNhcmRfcGhvdG8qKDVhYjc5YmEwZjg1YzZkODFlYTA1ZjI4YjAyNWMyYTNjNzMwYzkyMzcwAQGKtw1LEGFHrmK5QIg3tomrjDAF"
+                                    class="CSS_UPDATES_UCW_SENDER_IMG CSS_UPDATES_UCW_SENDER_IMG_CLICKABLE"
+                                    oid="101968685409431735765" alt=""></a></span><span
+                                class="CSS_UPDATES_UCW_DATE_AND_BUTTONS CSS_APP_MENU"><div
+                                class="CSS_UPDATES_UCW_DATE CSS_UPDATES_UCW_TEXT"
+                                title="Saturday, December 25, 2010 2:47:41 PM">Dec 25
+                        </div><span class="CSS_PROFILES_MENU_LINK">&#9660</span></span>
+
+                            <div class="CSS_UPDATES_UCW_UPDATE_CONTENT CSS_UPDATES_UCW_TEXT">
+                                <div>
+                                    <div><a href="/profiles/101968685409431735765#buzz"
+                                            class="CSS_UPDATES_UCW_USER CSS_UPDATES_UCW_AUTHOR proflink"
+                                            oid="101968685409431735765">Shawn Drape</a><span
+                                            class="CSS_UPDATES_UCW_VIA_SOURCE">&nbsp;-&nbsp;<a
+                                            href="http://xkcd.com/838/" class="ot-anchor CSS_UPDATES_UCW_VIA_SOURCE"
+                                            target="_blank">Mobile</a></span><span class="CSS_UPDATES_UCW_GROUPS">&nbsp;-&nbsp;Public</span><span
+                                            class="CSS_UPDATES_UCW_IGNORED_LABEL">&nbsp;-&nbsp;Muted</span></div>
+                                    <div class="CSS_UPDATES_UCW_UPDATE_ANNOTATION"></div>
+                                    <div class="CSS_UPDATES_UCW_RESHARED_FROM"><span
+                                            class="CSS_UPDATES_UCW_RESHARED_FROM_ICON goog-inline-block"> </span><img
+                                            class="CSS_UPDATES_UCW_RESHARED_AUTHOR_PHOTO"
+                                            src="/buzz/c/photos/public/AIbEiAIAAABECJ3nu5zImrfwpQEiC3ZjYXJkX3Bob3RvKigxNThhMjViMmI2OTkwODFkYmM2OWQwMGUyMmFmNjQxNzU4ZmI5NjFhMAFQq0Bkl32t-0qXa_kADNYsNlxVhw">Reshared
+                                        <a class="CSS_UPDATES_UCW_RESHARED_FROM_POST"
+                                           href="http://www.google.com/buzz/111952796216339657629/a1K2Yj2swHa">post</a>
+                                        from <a href="http://www.google.com/profiles/vilppu777#buzz"
+                                                class="CSS_UPDATES_UCW_USER proflink" oid="111952796216339657629"
+                                                rel="nofollow">Nicholas Vilppu</a>.
+                                    </div>
+                                    <div class="CSS_UPDATES_UCW_UPDATE_BODY"><span
+                                            class="CSS_UPDATES_UCW_UPDATE_BODY_TEXT"
+                                            id="col-z134sblhlzjicnw5204cifgqgvblyrfpfog0k"><span
+                                            class="CSS_UPDATES_UCW_UPDATE_TITLE"><a href="http://xkcd.com/838/"><b>Incident</b></a> - <a
+                                            href="http://xkcd.com/"
+                                            class="ot-origin-anchor">xkcd.com</a></span><br><span><img
+                                            src="//0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;rewriteMime=image/*&amp;refresh=31536000&amp;url=http://imgs.xkcd.com/comics/incident.png"
+                                            title="He sees you when you&#39;re sleeping, he knows when you&#39;re awake, he&#39;s copied on /var/spool/mail/root, so be good for goodness&#39; sake."
+                                            alt="He sees you when you&#39;re sleeping, he knows when you&#39;re awake, he&#39;s copied on /var/spool/mail/root, so be good for goodness&#39; sake."/></span></span>
+                                    </div>
+                                    <div class="CSS_UPDATES_UCW_MEDIAS">
+                                        <div class="CSS_UPDATES_UCW_MEDIA_LIST"></div>
+                                    </div>
+                                </div>
+                                <div class="CSS_UPDATES_UCW_COMMENT_SPACER CSS_UPDATES_UCW_HIDDEN_COMMENT_SPACER"></div>
+                                <div class="CSS_UPDATES_UCW_RESHARING_USERS_ROW CSS_UPDATES_UCW_HIDDEN"></div>
+                                <div class="CSS_UPDATES_UCW_LIKING_USERS_ROW">
+                                    <div class="CSS_UPDATES_UCW_LIKING_USERS"><span
+                                            class="CSS_UPDATES_LIKE_ICON"> </span> <span>1 person liked this</span><span
+                                            class="CSS_UPDATES_UCW_PEOPLE_LIST"><span
+                                            class="CSS_UPDATES_UCW_PEOPLE_LIST_DELIM"> - </span><!-- Do nothing --><a
+                                            href="/profiles/108386397913675578675#buzz"
+                                            class="CSS_UPDATES_UCW_USER proflink" oid="108386397913675578675"
+                                            rel="nofollow">Wilfredo Guerrero</a></span></div>
+                                </div>
+                            </div>
+                            <div class="CSS_UPDATES_UCW_SPACER"></div>
+                            <div class="CSS_UPDATES_UCW_REALTIME_COLOR_DIV"></div>
+                            <div class="CSS_UPDATES_UCW_BACKGROUND_COLOR_DIV"></div>
+                        </div>
+                        <div class="CSS_PROFILES_COMMENTS"></div>
+                        <div class="CSS_UPDATES_UCW_TEXT CSS_UPDATES_UCW_CLOSED_COMMENTS_MESSAGE"><span
+                                class="CSS_UPDATES_UCW_CLOSED_COMMENTS_ICON goog-inline-block"> </span><a
+                                href="/profiles/101968685409431735765#buzz"
+                                class="CSS_UPDATES_UCW_USER CSS_UPDATES_UCW_AUTHOR proflink"
+                                oid="101968685409431735765">Shawn Drape</a> has disabled comments on this post
+                        </div>
+                        <div class="CSS_PROFILES_UPDATE_BUTTONS">
+                            <div class="CSS_PROFILES_ADD_COMMENT"><span
+                                    class="CSS_PROFILES_ADD_COMMENT_LINK CSS_UPDATES_COMMENT_ICON"> </span><span
+                                    class="CSS_PROFILES_ADD_COMMENT_LINK ">Comment</span></div>
+                            <span class="CSS_PROFILES_LIKE_BUTTON "><span
+                                    class="CSS_PROFILES_LIKE_UPDATE_LINK CSS_UPDATES_LIKE_ICON"> </span><span
+                                    class="CSS_PROFILES_LIKE_UPDATE_LINK">Like</span></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ll_footer"><img src="//www.google.com/intl/en/images/logos/buzz_logo.gif" height="40"
+                                        alt="Google Buzz"></div>
+        </div>
+
+        <script type="text/javascript"
+                src="http://www.google.com/buzz/c/ui/js/1303765710-StandaloneBuzzPage.js"></script>
+        <script type="text/javascript">window.__buzz = new goog.profiles.ProfileUpdates( new goog.profiles.ServerDetails( "invalid", "/buzz/c/widgets/ProfileCard", "/buzz/c", "en", "https://www.google.com/accounts/ServiceLogin?service\x3dprofiles\x26continue" ), new goog.profiles.ProfilePerson( null, null, null, null ), "/profiles/Shawn.drape", false );
+        window.__buzz.init( [
+                                {id:'z134sblhlzjicnw5204cifgqgvblyrfpfog0k',media:[
+                                    {playerH:309,playerW:695,title:'',description:'',thumbnails:[
+                                        {height:309,width:695,url:'http://imgs.xkcd.com/comics/incident.png'}
+                                    ],type:'',containerUrl:'',url:'http://xkcd.com/838/',medium:'image',mimeType:'image/jpeg',playerUrl:'http://imgs.xkcd.com/comics/incident.png'}
+                                ],likingUsers:{totalUsers:1,hidden:[],displayed:[
+                                    {name:'Wilfredo Guerrero',obfuscatedId:'108386397913675578675',isContact:false,isViewerFollowing:false,profileUrl:'/profiles/108386397913675578675'}
+                                ]}}
+                            ], true, false, true, false );</script>
+    </body>
+</html>

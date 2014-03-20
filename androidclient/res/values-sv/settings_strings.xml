@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="feed_settings_window_title">Feedinställningar</string>
+    <string name="notification_settings_option_ball">LED-färg</string>
+    <string name="notification_settings_option_ball_blue">Blå</string>
+    <string name="notification_settings_option_ball_description">Färg på LED när nya meddelanden inkommer</string>
+    <string name="notification_settings_option_ball_green">Grön</string>
+    <string name="notification_settings_option_ball_off">Av</string>
+    <string name="notification_settings_option_ball_red">Röd</string>
+    <string name="notification_settings_option_ball_white">Vit</string>
+    <string name="notification_settings_play_sound">Spela upp ljud</string>
+    <string name="notification_settings_play_sound_description">Om en ljudeffekt skall spelas när ett nytt svar inkommer
+    </string>
+    <string name="notification_settings_realtime_enable">Följ efter svar</string>
+    <string name="notification_settings_realtime_enable_description">Följ alltid Buzz efter att ett svar skrivits
+    </string>
+    <string name="notification_settings_vibrate">Vibrera</string>
+    <string name="notification_settings_vibrate_description">Vibrera när nya svar inkommer</string>
+    <string name="settings_default_screen_main_screen">Huvudmeny</string>
+    <string name="settings_default_screen_nearby">I närheten</string>
+    <string name="settings_default_screen_personal">Personlig</string>
+    <string name="settings_default_start_screen_heading">Startskärm</string>
+    <string name="settings_default_start_screen_heading_description">Skärm som visas när applikationen startas</string>
+    <string name="settings_download_replies_always_option">Alltid</string>
+    <string name="settings_download_replies_never_option">Aldrig</string>
+    <string name="settings_download_replies_only_wlan_option">Endast via WLAN</string>
+    <string name="settings_feed_download_replies">Hämta svar</string>
+    <string name="settings_feed_download_replies_description">Hämta svar samtidigt som feed laddas</string>
+    <string name="settings_no_account">Inget konto valt (foton kan inte laddas upp)</string>
+    <string name="settings_select_account">Picasa-konto</string>
+    <string name="settings_select_account_description">Picasa-konto att använda vil uppladdning av foton</string>
+</resources>

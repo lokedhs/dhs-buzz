@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout android:id="@+id/profile_layout"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:orientation="vertical">
+
+        <RelativeLayout android:id="@+id/profile_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <ImageView android:id="@+id/image"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentTop="true"
+                       android:paddingBottom="4dp"
+                       android:paddingTop="@dimen/display_buzz_link_padding"
+                       android:paddingLeft="@dimen/display_buzz_link_padding"
+                       android:paddingRight="8dp"/>
+            <TextView android:id="@+id/name_text_view"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/image"
+                      android:layout_alignParentTop="true"
+                      android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <TextView android:id="@+id/is_following_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/is_followed_by_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/interests_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <WebView android:id="@+id/about_text_view"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

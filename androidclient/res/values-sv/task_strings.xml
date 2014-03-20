@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="task_delete_reply_ticker">Tar bort svar</string>
+    <string name="task_edit_post_ticker">Uppdaterar meddelande</string>
+    <string name="task_edit_reply_ticker">Uppdaterar svar</string>
+    <string name="task_load_more_ticker">Laddar fler meddelanden</string>
+    <string name="task_mark_as_liked_ticker">Markerar som gillat</string>
+    <string name="task_mark_as_spam_ticker">Markerar som spam</string>
+    <string name="task_mute_feed_ticker">Döljer meddelande</string>
+    <string name="task_non_restart_failed_notification">Aktiviteter har misslyckats</string>
+    <string name="task_post_message_account_not_exist">Konto {0} inte tillgängligt</string>
+    <string name="task_post_message_ticker">Nytt meddelande: {0}</string>
+    <string name="task_post_reply_ticker">Postar svar</string>
+    <string name="task_prune_database_ticker">Tömmer databas</string>
+    <string name="task_register_realtime_ticker">Begär realtidsuppdateringar för buzz från {0}</string>
+    <string name="task_restartable_failed_content">Välj för att skicka eller ta bort jobb</string>
+    <string name="task_restartable_failed_notification">Fel när jobb skulle köras</string>
+    <string name="task_restartable_failed_title">Jobb har misslyckats</string>
+    <string name="task_sync_feed_ticker">Laddar ner meddelanden</string>
+    <string name="task_update_following_ticker_start">Följ {0}</string>
+    <string name="task_update_following_ticker_stop">Sluta följ {0}</string>
+</resources>

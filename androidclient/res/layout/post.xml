@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical">
+
+        <org.atari.dhs.buzztest.androidclient.tools.posteditor.PostEditor
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:gravity="top"
+                android:minLines="4"
+                android:autoText="true"/>
+
+        <RelativeLayout android:id="@+id/url_link_view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+            <TextView android:id="@+id/linked_url_title"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/post_share_web_page"
+                      android:textSize="10sp"/>
+            <Button android:id="@+id/image_select_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linked_url_title"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/post_images"/>
+            <TextView android:id="@+id/url_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_below="@id/linked_url_title"
+                      android:layout_toLeftOf="@id/image_select_button"
+                      android:textSize="16sp"
+                      android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <HorizontalScrollView android:id="@+id/image_attachment_scroll_view"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/image_attachment_view"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"/>
+        </HorizontalScrollView>
+
+        <Button android:id="@+id/attach_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/post_attach_photo"
+                android:onClick="attachImageClicked"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <org.atari.dhs.buzztest.androidclient.tools.RotateableContainer
+                    android:id="@+id/include_location_rotateable_panel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <CheckBox android:id="@+id/include_location_checkbox"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/post_include_location"
+                          android:checked="false"/>
+            </org.atari.dhs.buzztest.androidclient.tools.RotateableContainer>
+
+            <RelativeLayout android:id="@+id/location_options_panel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone">
+
+                <TextView android:id="@+id/location_name_text"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:layout_alignParentTop="true"
+                          android:textSize="18sp"
+                          android:text="@string/post_no_address"/>
+
+                <Button android:id="@+id/location_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/location_name_text"
+                        android:text="Select nearby location"
+                        android:onClick="selectPlace"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <org.atari.dhs.buzztest.androidclient.tools.RotateableContainer
+                    android:id="@+id/private_post_rotateable_panel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <CheckBox android:id="@+id/private_post_checkbox"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Private"
+                          android:checked="false"/>
+            </org.atari.dhs.buzztest.androidclient.tools.RotateableContainer>
+
+            <RelativeLayout android:id="@+id/private_options_panel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone">
+                <TextView android:id="@+id/private_post_groups_text_field"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:layout_alignParentTop="true"
+                          android:textSize="18sp"
+                          android:text="Groups"/>
+                <Button android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/private_post_groups_text_field"
+                        android:text="Select groups"
+                        android:onClick="selectGroupsClicked"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button android:id="@+id/send_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_button_title_label"
+                android:onClick="postMessageClicked"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The width of the image containing the photo of the poster -->
+    <dimen name="photo_icon_width">48dp</dimen>
+    <!-- The height of the image containing the photo of the poster -->
+    <dimen name="photo_icon_height">48dp</dimen>
+
+    <dimen name="buzz_row_date_text_size">9sp</dimen>
+
+    <!-- The padding around the photo of the user -->
+    <dimen name="display_buzz_link_padding">4dp</dimen>
+
+    <dimen name="image_preview_width">96dp</dimen>
+    <dimen name="image_preview_height">96dp</dimen>
+    <dimen name="image_preview_padding">1dp</dimen>
+
+    <!-- The width of an image displayed in the image selector when sharing a URL -->
+    <dimen name="select_images_pic_width">100dp</dimen>
+    <!-- The height of an image displayed in the image selector when sharing a URL -->
+    <dimen name="select_images_pic_height">100dp</dimen>
+
+    <!-- From Google demo code -->
+    <dimen name="titlebar_colorstrip_height">6dip</dimen>
+    <dimen name="titlebar_title_height">45dip</dimen>
+    <dimen name="titlebar_title_small_height">25dip</dimen>
+    <dimen name="titlebar_now_playing_height">90dip</dimen>
+    <dimen name="titlebar_text_size_small">14sp</dimen>
+    <dimen name="titlebar_text_size_medium">18sp</dimen>
+    <dimen name="titlebar_text_size_large">22sp</dimen>
+
+    <dimen name="welcome_button_width">100dp</dimen>
+    <dimen name="welcome_button_height">80dp</dimen>
+</resources>

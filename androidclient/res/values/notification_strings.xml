@@ -1,0 +1,15 @@
+<resources>
+    <!-- Title of the notification bar message when replies have been received.
+     {0} - the name of the sender -->
+    <string name="notification_new_replies_from_subscribed_title">New replies on subscribed Buzzes</string>
+
+    <!-- Content of the notification bar message when replies updates have been received.
+    {0} - the name of the sender -->
+    <string name="notification_new_replies_from_subscribed_content">From: {0}</string>
+
+    <!-- Title of the notification bar message when the realtime search has been updated. {0} - the number of new messages -->
+    <string name="notification_realtime_search_feed_updates_title">New Buzzes</string>
+
+    <!-- Content of the notification bar message when the realtime search has been updated. {0} - the number of new messages -->
+    <string name="notification_realtime_search_feed_updates_content">{0} updated buzzes</string>
+</resources>

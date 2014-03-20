@@ -1,0 +1,65 @@
+<resources>
+    <!-- The name of the application. Displayed in the launcher and the application list -->
+    <string name="main_application_name">DHS Buzz</string>
+
+    <!-- The name of the destination as shown in the menu when a user wants to share an image or a web page -->
+    <string name="main_share_on">Google Buzz</string>
+
+    <!-- Text that is displayed on the welcome screen when the user does not have an account configured.
+     This text should explain to the user that he should go into settings to authenticate his account. -->
+    <string name="no_account_help">Before you can use this application, you must first authenticate your buzz account.
+        This is done by going into the settings screen and following the on-screen instructions.
+    </string>
+
+    <!-- Text in the button that opens the settings. Only displayed below the help text when the user does not have an account -->
+    <string name="no_account_settings_button_text">Open Settings</string>
+
+    <!-- Label in the button to the right of the "reply" text field -->
+    <string name="reply_button_post">Post</string>
+
+    <!-- The hint text in the reply text field -->
+    <string name="reply_text_field_hint">Write a reply</string>
+
+    <!-- The toast message that pops up after posting a reply. -->
+    <string name="reply_posted_message">Reply posted. It may take a little while for it to show up.</string>
+
+    <!-- Context menu entry which allows the user to translate the content of the message to his own language -->
+    <string name="menu_text_translate">Translate</string>
+
+    <!-- Message that is displayed to instruct the user that he has to give the application permission to access the Buzz stream -->
+    <string name="authenticate_require_authentication">You need to give this application permission to access your
+        private Buzz stream. Click the button below to do this.
+        &lt;p&gt;&lt;b&gt;Note that the authentication will fail if you are not using the standard Android browser as the default.&lt;/b&gt; In
+        particular, it is known that Firefox will fail to return the correct information to DHS Buzz, thus preventing
+        authentication.
+        &lt;p&gt;If you face this problem, please make sure that you are using the standard Android browser during this process.
+        After authentication is done, you can switch back to the browser of your choice.
+        &lt;p&gt;NOTICE: If you get a force close error after clicking the button below, it would be very helpful
+        if you could inform me at info@dhsdevelopments.com so that
+        the problem can be investigated.
+    </string>
+
+    <!-- Notification message when a background service is running -->
+    <string name="buzz_manager_communicating_with_server">DHS Buzz working</string>
+
+    <!-- Error message indication that there was a network error -->
+    <string name="error_communication">Network communication error (no connectivity)</string>
+
+    <!-- Error message indication that there was a network error. {0} - the error message -->
+    <string name="error_communication_with_description">Network communication error: {0}</string>
+
+    <!-- Error message that indicates that the server returned an error -->
+    <string name="server_error">Server error</string>
+
+    <!-- Error message that is displayed when the user tries to upload pictures to picasa and the authentication fails. -->
+    <string name="error_google_acct_auth">Authentication failed. Check the Picasa account configuration in the settings screen.</string>
+
+    <!-- The "powered by Google" message that is displayed below any service that uses Google as the backend -->
+    <string name="powered_by">Translations powered by Google</string>
+
+    <!-- The hint that is displayed in the search dialog before typing anything -->
+    <string name="search_hint">Search</string>
+
+    <!-- Label for the "more" button in all menus that has such a label -->
+    <string name="menu_more">More</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidclient/androidclient.iml" filepath="$PROJECT_DIR$/androidclient/androidclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api_test/api_test.iml" filepath="$PROJECT_DIR$/api_test/api_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buzzjson/buzzjson.iml" filepath="$PROJECT_DIR$/buzzjson/buzzjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buzz-java-client-read-only/java-buzz-client/java-buzz-client.iml" filepath="$PROJECT_DIR$/buzz-java-client-read-only/java-buzz-client/java-buzz-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subscribe_server/subscribe_server.iml" filepath="$PROJECT_DIR$/subscribe_server/subscribe_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
+

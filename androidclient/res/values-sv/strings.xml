@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="buzz_manager_communicating_with_server">DHS Buzz arbetar</string>
+    <string name="error_communication">Kommunikationsfel</string>
+    <string name="error_google_acct_auth">Autenticering misslyckades. Kontrollera kontoinställningarna för Picasa.
+    </string>
+    <string name="main_application_name">DHS Buzz</string>
+    <string name="main_share_on">Google Buzz</string>
+    <string name="menu_text_translate">Översätt</string>
+    <string name="no_account_help">Innan du kan använda detta program så måster du ge programmet tillgång till ditt
+        Buzz-konto. Detta görs genom att gå till inställningarna och följa instruktionerna på skärmen.
+    </string>
+    <string name="no_account_settings_button_text">Öppna inställningar</string>
+    <string name="powered_by">Översättningar från Google</string>
+    <string name="reply_button_post">Skicka</string>
+    <string name="reply_posted_message">Svar skickat. Det kan ta lite tid innan det syns.</string>
+    <string name="reply_text_field_hint">Skriv svar</string>
+</resources>

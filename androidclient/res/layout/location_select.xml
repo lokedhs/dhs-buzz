@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <LinearLayout android:id="@+id/select_area_panel"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical">
+        <ListView android:id="@+id/area_select_list_view"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_weight="1"
+                  style="@style/listStyle"/>
+
+        <TextView android:id="@+id/attributions_text_view"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="4dp"
+                  android:linksClickable="true"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/select_location_panel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+        <LinearLayout android:id="@+id/area_name_holder"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginBottom="2dp"
+                      android:focusable="true"/>
+        <!--
+        <TextView android:id="@+id/vicinity_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/area_name_holder"
+                  android:padding="4dp"/>
+        -->
+        <TextView android:id="@+id/address_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/area_name_holder"
+                  android:padding="4dp"/>
+
+        <TextView android:id="@+id/map_detail_attributions_text_view"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/address_text"
+                  android:padding="4dp"
+                  android:linksClickable="true"
+                  android:textSize="12sp"/>
+
+        <com.google.android.maps.MapView
+                android:id="@+id/position_map_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/map_detail_attributions_text_view"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:apiKey="0OgNOQzENsDwJvNtJfn7EqGQ4_WlIFabouuVl5w"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/animation_panel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="invisible"/>
+
+</FrameLayout>

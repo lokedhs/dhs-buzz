@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/display_buzz_reply_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants">
+
+    <TextView android:id="@+id/date"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:layout_below="@id/from"
+              android:textSize="11sp"
+              android:padding="2dp"/>
+
+    <View android:id="@+id/unread_marker"
+          android:layout_width="10sp"
+          android:layout_height="fill_parent"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignBottom="@id/content"
+          android:background="@color/error_colour"/>
+
+    <TextView android:id="@+id/from"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:layout_toLeftOf="@id/date"
+              android:textStyle="bold"
+              android:padding="2dp"
+              style="@style/highContrast"/>
+
+    <TextView android:id="@+id/content"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@id/from"
+              android:padding="2dp"
+              style="@style/highContrast"/>
+
+</RelativeLayout>

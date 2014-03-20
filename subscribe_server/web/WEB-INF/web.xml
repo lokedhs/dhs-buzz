@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <servlet>
+        <display-name>C2DMServlet</display-name>
+        <servlet-name>C2DMServlet</servlet-name>
+        <servlet-class>org.atari.dhs.buzztest.server.c2dm.C2DMServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PushMessageAndroidServlet</servlet-name>
+        <servlet-class>org.atari.dhs.buzztest.server.c2dm.PushMessageAndroidServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RequestTokenServlet</servlet-name>
+        <servlet-class>org.atari.dhs.buzztest.server.token.RequestTokenServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Manager for feed subscriptions</description>
+        <display-name>Feed subscriptions</display-name>
+        <servlet-name>FeedSubscriberServlet</servlet-name>
+        <servlet-class>org.atari.dhs.buzztest.server.c2dm.feed.FeedSubscriberServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FeedMessageAndroidServlet</servlet-name>
+        <servlet-class>org.atari.dhs.buzztest.server.c2dm.feed.FeedMessageAndroidServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>C2DMServlet</servlet-name>
+        <url-pattern>/C2DMPush</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PushMessageAndroidServlet</servlet-name>
+        <url-pattern>/PushMessageAndroid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestTokenServlet</servlet-name>
+        <url-pattern>/RequestToken</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FeedSubscriberServlet</servlet-name>
+        <url-pattern>/SubscribeFeed</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FeedMessageAndroidServlet</servlet-name>
+        <url-pattern>/FeedMessageAndroid</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

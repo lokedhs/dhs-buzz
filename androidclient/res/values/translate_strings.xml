@@ -1,0 +1,18 @@
+<resources>
+    <!-- Window title of the translate activity -->
+    <string name="translate_window_title">Translation</string>
+
+    <!-- Menu entry in the language menu to indicate that the language should auto-detected -->
+    <string name="translate_autodetect_language">Autodetect</string>
+
+    <!-- Destination language for translations. I.e. the language that the translation should translate to.
+     This field should be an ISO language code corresponding to one of the languages in languages.xml -->
+    <string name="translate_language">en</string>
+
+    <!-- Header in the translate window after the language has been detected. Processed by MessageFormat.
+     {0} = the localised name of the language that was detected -->
+    <string name="translate_detected_as">Detected as {0}</string>
+
+    <!-- Error message displayed in a toast after the translation failed. {0} = the error message -->
+    <string name="translate_error_loading_translation">Error when loading translated message. Error: {0}</string>
+</resources>

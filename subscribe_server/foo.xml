@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns:crosspost="http://purl.org/syndication/cross-posting" xmlns="http://www.w3.org/2005/Atom"
+      xmlns:buzz="http://schemas.google.com/buzz/2010" gd:kind="buzz#activityFeed"
+      xmlns:georss="http://www.georss.org/georss" xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:gd="http://schemas.google.com/g/2005" xmlns:poco="http://portablecontacts.net/ns/1.0"
+      xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <link href="https://www.googleapis.com/buzz/v1/activities/105250506097979753968/@public?alt=atom"
+          type="application/atom+xml" rel="self"/>
+    <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+    <title>Google Buzz Public Feed for Google Buzz</title>
+    <updated>2010-12-14T15:23:44.633Z</updated>
+    <id>tag:google.com,2010:buzz-feed:public:posted:105250506097979753968</id>
+    <generator uri="http://www.google.com/buzz">Google Buzz</generator>
+    <entry gd:kind="buzz#activity">
+        <title>Test buzz. dhsbuzztest</title>
+        <published>2010-12-14T15:18:15.000Z</published>
+        <updated>2010-12-14T15:18:15.919Z</updated>
+        <id>tag:google.com,2010:buzz:z12tw1minqilg1du323rwrsg0x3rwdxa004</id>
+        <link href="http://www.google.com/buzz/117768027792570348635/CFyiRtm96r6" type="text/html" rel="alternate"/>
+        <link href="https://www.googleapis.com/buzz/v1/activities/117768027792570348635/@self/B:z12tw1minqilg1du323rwrsg0x3rwdxa004?alt=atom"
+              type="application/atom+xml" rel="self"/>
+        <link thr:count="1"
+              href="https://www.googleapis.com/buzz/v1/activities/117768027792570348635/@self/B:z12tw1minqilg1du323rwrsg0x3rwdxa004/@comments?alt=atom"
+              type="application/atom+xml" thr:updated="2010-12-14T15:23:44.633Z" rel="replies"/>
+        <author>
+            <poco:id>117768027792570348635</poco:id>
+            <poco:photoUrl/>
+            <name>Loke Develtest</name>
+            <uri>http://www.google.com/profiles/loke.develtest</uri>
+            <link href="" type="image/jpeg" rel="photo"/>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <content type="html">Test buzz. dhsbuzztest</content>
+        <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+        <activity:object>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+            <content type="html">Test buzz. dhsbuzztest</content>
+            <buzz:original-content type="text"/>
+            <link href="http://www.google.com/buzz/117768027792570348635/CFyiRtm96r6" type="text/html" rel="alternate"/>
+        </activity:object>
+        <source>
+            <activity:service>
+                <title>Buzz</title>
+            </activity:service>
+            <id>tag:google.com,2010:buzz-feed:public:posted:117768027792570348635</id>
+            <updated>2010-12-14T15:23:44.633Z</updated>
+            <link href="https://www.googleapis.com/buzz/v1/activities/117768027792570348635/@public?alt=atom"
+                  type="application/atom+xml" rel="self"/>
+            <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+        </source>
+        <buzz:visibility>
+            <buzz:aclentry type="group">
+                <poco:id>G:@me:@public</poco:id>
+                <uri>https://www.googleapis.com/buzz/v1/people/@me/@groups/G:@me:@public?alt=atom</uri>
+                <poco:name>Public</poco:name>
+            </buzz:aclentry>
+        </buzz:visibility>
+        <link buzz:count="0"
+              href="https://www.googleapis.com/buzz/v1/activities/117768027792570348635/@self/B:z12tw1minqilg1du323rwrsg0x3rwdxa004/@liked?alt=atom"
+              type="application/poco+xml" rel="http://schemas.google.com/buzz/2010#liked"/>
+    </entry>
+</feed>

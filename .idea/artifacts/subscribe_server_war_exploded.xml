@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="subscribe_server:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/subscribe_server_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="subscribe_server/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="subscribe_server" />
+          <element id="module-output" name="java-buzz-client" />
+          <element id="jpa-descriptors" facet="subscribe_server/jpa/JPA" />
+          <element id="module-output" name="buzzjson" />
+          <element id="module-output" name="common" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="AppEngine_jpa" />
+          <element id="library" level="project" name="buzz_api_dependencies" />
+          <element id="library" level="project" name="AppEngine_api" />
+          <element id="library" level="project" name="commons-codec" />
+          <element id="library" level="project" name="commons-logging" />
+          <element id="library" level="project" name="httpclient" />
+          <element id="library" level="project" name="htmlparser" />
+          <element id="library" level="project" name="annotations" />
+          <element id="library" level="project" name="jericho_html" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

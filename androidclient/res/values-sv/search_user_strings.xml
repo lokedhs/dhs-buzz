@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="search_user_already_in_progress">Sökning pågår redan</string>
+    <string name="search_user_begin">Sök</string>
+    <string name="search_user_error_loading_users">Fel när användarlistan laddades: {0}</string>
+    <string name="search_user_load">Ladda fler…</string>
+    <string name="search_user_result_description">Hittade {0,number} {0,choice,0#personer|1#person|1&lt;personer}
+    </string>
+    <string name="search_user_text_view_title">Söktext</string>
+    <string name="search_user_type_name">Namn</string>
+    <string name="search_user_type_topic">Ämne</string>
+    <string name="search_user_window_title">Användarsökning</string>
+</resources>

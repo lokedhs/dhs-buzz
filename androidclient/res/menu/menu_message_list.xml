@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/update_content"
+          android:title="@string/display_feed_menu_reload"
+          android:icon="@drawable/ic_menu_reload"/>
+    <item android:id="@+id/search"
+          android:title="Search"
+          android:icon="@android:drawable/ic_menu_search"/>
+</menu>

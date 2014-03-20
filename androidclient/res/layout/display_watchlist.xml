@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <ListView android:id="@+id/list_view"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              style="@style/listStyle"/>
+
+    <RelativeLayout android:id="@+id/no_result_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_centerVertical="true"
+                  android:textSize="18sp"
+                  android:textStyle="bold"
+                  android:text="@string/display_watchlist_no_result_text"/>
+    </RelativeLayout>
+
+</LinearLayout>

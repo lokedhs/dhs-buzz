@@ -1,0 +1,4 @@
+<resources>
+    <!-- Window title of the map activity -->
+    <string name="map_window_title">Buzz in the world</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <!--
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="DHS Buzz"
+                  android:textSize="30dp"/>
+        -->
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/feed_button"
+                          android:onClick="displayFeed"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_feed"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_feed"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/nearby_button"
+                          android:onClick="nearbyClicked"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_nearby"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_nearby"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/watchlist_button"
+                          android:onClick="watchlistClicked"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_flagged"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_watchlist"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/post_button"
+                          android:onClick="postNewMessage"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_post"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_post"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/search_user_button"
+                          android:onClick="searchUserClicked"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_people"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_user_search"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+            <LinearLayout android:id="@+id/debug_map_button"
+                          android:onClick="debugMapClicked"
+                          style="@style/welcome_button_style">
+                <ImageView android:src="@drawable/main_screen_map"
+                           style="@style/welcome_screen_image_style"/>
+                <TextView android:text="@string/welcome_screen_button_map"
+                          style="@style/welcome_screen_description_name_style"/>
+            </LinearLayout>
+            <View style="@style/welcome_screen_root_spring"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/no_account_wrapper_view"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:visibility="gone">
+            <TextView android:id="@+id/no_account_help_text_view"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:text="@string/no_account_help"/>
+            <Button android:id="@+id/no_account_settings_shortcut_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/no_account_settings_button_text"
+                    android:onClick="openSettings"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/start_follow"
+          android:title="@string/display_profile_menu_follow"
+          android:icon="@drawable/ic_menu_follow"/>
+    <item android:id="@+id/stop_follow"
+          android:title="@string/display_profile_menu_unfollow"
+          android:icon="@drawable/ic_menu_unfollow"/>
+    <item android:id="@+id/display_messages"
+          android:title="@string/display_profile_menu_posts"
+          android:icon="@drawable/ic_menu_post"/>
+    <item android:id="@+id/menu_displaybuzz_more"
+          android:title="@string/menu_more"
+          android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item android:id="@+id/show_profile_url"
+                  android:title="@string/display_profile_menu_profile_webpage"/>
+<!--
+            <item android:id="@+id/followers"
+                  android:title="Followers"/>
+            <item android:id="@+id/following"
+                  android:title="Following"/>
+-->
+        </menu>
+    </item>
+</menu>

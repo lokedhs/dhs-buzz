@@ -1,0 +1,8 @@
+<resources>
+    <!-- Window title of the edit reply activity. Note that this is not only used to edit
+     replies but also actual buzz posts. -->
+    <string name="edit_reply_window_title">Edit message</string>
+
+    <!-- Text in the post button when the user is editing a reply or a buzz post -->
+    <string name="edit_reply_post">Update</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Time since last update: less than one minute ago -->
+    <string name="dates_less_than_one_minute_ago">less than one minute ago</string>
+
+    <!-- Time since last update: between 1 and 59 minutes ago. {0} - number of minutes  -->
+    <string name="date_number_minutes_ago">{0} {0,choice,1#minute|1&lt;minutes} ago</string>
+
+    <!-- Time since last update: between 1 and 23 hours ago. {0} - number of hours -->
+    <string name="date_number_hours_ago">{0} {0,choice,1#hour|1&lt;hours} ago</string>
+
+    <!-- Time since last update: more than one day ago. {0} - number of days -->
+    <string name="date_number_days_ago">{0} {0,choice,1#day|1&lt;days} ago</string>
+</resources>

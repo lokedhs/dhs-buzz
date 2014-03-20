@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="reshare_content_hint">Kommentar</string>
+    <string name="reshare_sender_name">Delad Buzz från {0}</string>
+</resources>

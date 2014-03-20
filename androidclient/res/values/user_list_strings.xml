@@ -1,0 +1,38 @@
+<resources>
+    <!-- Window title fo the user list activity -->
+    <string name="user_list_window_title">Users</string>
+
+    <!-- Header in user list activity. Displaying the people a person is following.
+    Processed by MessageFormat with {0} being the name of the user -->
+    <string name="user_list_title_following">{0} is following</string>
+
+    <!-- Header in user list activity. Displaying the people a person is following. Used when the name of the user is unknown -->
+    <string name="user_list_title_following_no_username">Following</string>
+
+    <!-- Header in user list activity. Displaying the people following a person.
+    Processed by MessageFormat with {0} being the name of the user -->
+    <string name="user_list_title_followers">{0} is followed by</string>
+
+    <!-- Header in user list activity. Displaying the people following a person. Used when the name of the user is unknown -->
+    <string name="user_list_title_followers_no_username">Followers</string>
+
+    <!-- Text that is displayed next to the progress bar while the user list is loading -->
+    <string name="user_list_loading_progress_title">Loading user list&#8230;</string>
+
+    <!-- Title that describes how many followers a user has. Processed by MessageFormat, {0} is the username,
+    {1} is the number of followers. -->
+    <string name="user_list_user_followers">{0} has {1,number} {1,choice,0#followers|1#follower|1&lt;followers}</string>
+
+    <!-- Title that describes how many followers a user has. Used when the name of the user in unknown. -->
+    <string name="user_list_user_followers_plain">{0,number} {0,choice,0#followers|1#follower|1&lt;followers}</string>
+
+    <!-- Title that describes how many people a user is following. Processed by MessageFormat, {0} is the username,
+    {1} is the number people the user is following. -->
+    <string name="user_list_user_following">{0} is following {1,number} {1,choice,0#persons|1#person|1&lt;persons}</string>
+
+    <!-- Title that describes how many people a user is following. Used when the name of the user is unknown. -->
+    <string name="user_list_user_following_plain">Following {0,number} {0,choice,0#persons|1#person|1&lt;persons}</string>
+
+    <!-- Error message displayed in a toast if there was an error loading the users. {0} - the error message -->
+    <string name="user_list_error_loading">Error loading user list: {0}</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="translate_autodetect_language">Automatiskt</string>
+    <string name="translate_detected_as">Detekterat som {0}</string>
+    <string name="translate_error_loading_translation">Fel när översättningen laddades: {0}</string>
+    <string name="translate_language">sv</string>
+    <string name="translate_window_title">Översättning</string>
+</resources>

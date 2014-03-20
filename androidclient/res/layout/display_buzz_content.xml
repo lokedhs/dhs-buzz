@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+        Layout of the buzz message:
+
+        =========   Palle Person        RT
+        | Image |   1 Jan 2010, 10:10
+        =========   From Google Reader
+        Location panel
+        Content of the buzz
+        Links panel
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/display_buzz_content_view"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/image"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentTop="true"
+                   android:layout_alignParentLeft="true"
+                   android:src="@drawable/photo_default"
+                   android:paddingBottom="4dp"
+                   android:paddingTop="@dimen/display_buzz_link_padding"
+                   android:paddingLeft="@dimen/display_buzz_link_padding"
+                   android:paddingRight="8dp"/>
+
+        <TextView android:id="@+id/name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/image"
+                  android:layout_alignParentTop="true"
+                  android:textStyle="bold"/>
+
+        <TextView android:id="@+id/date"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@id/name"
+                  android:layout_below="@+id/name"
+                  android:textSize="11sp"/>
+
+        <TextView android:id="@+id/from"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@id/name"
+                  android:layout_below="@id/date"
+                  android:textSize="11sp"/>
+
+        <ImageView android:id="@+id/realtime_icon_image_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentTop="true"
+                   android:src="@drawable/realtime_icon"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/reshare_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+        <TextView android:id="@+id/shared_by_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  style="@style/highContrast"/>
+        <TextView android:id="@+id/shared_by_user"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/shared_by_text"
+                  android:textSize="12sp"/>
+        <View android:layout_width="200dp"
+              android:layout_height="1dp"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@id/shared_by_user"
+              android:layout_marginRight="0dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="5dp"
+              android:background="@color/display_buzz_bar_colour"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/location_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+        <TextView android:id="@+id/location_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:textSize="11sp"/>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/content"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/display_buzz_link_padding"
+              style="@style/highContrast"/>
+
+    <LinearLayout android:id="@+id/links"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+    <LinearLayout android:id="@+id/images_view"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+</LinearLayout>

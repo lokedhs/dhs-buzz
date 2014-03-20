@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="display_feed_error_feed_load">Fel när meddelanden hämtades: {0}</string>
+    <string name="display_feed_failed_to_get_location">Kan inte erhålla nuvarande position. GPS måste kanske slås på.
+    </string>
+    <string name="display_feed_heading_number_of_replies">{0,number} svar</string>
+    <string name="display_feed_last_reload_date">Senaste hämtning: {0}</string>
+    <string name="display_feed_load">Hämta fler meddelanden…</string>
+    <string name="display_feed_loading">Laddar buzz</string>
+    <string name="display_feed_nearby">I närheten</string>
+    <string name="display_feed_personal">Personlig</string>
+</resources>

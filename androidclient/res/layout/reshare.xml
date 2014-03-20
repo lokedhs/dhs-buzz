@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <TextView android:id="@+id/sender_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+    <org.atari.dhs.buzztest.androidclient.tools.posteditor.PostEditor
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/post_button"
+            android:minLines="4"
+            android:autoText="true"
+            android:gravity="top"
+            android:hint="@string/reshare_content_hint"/>
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:onClick="postButtonClicked"/>
+</LinearLayout>

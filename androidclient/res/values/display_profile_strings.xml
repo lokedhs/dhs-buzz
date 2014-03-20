@@ -1,0 +1,35 @@
+<resources>
+    <!-- Window title of the display profile activity -->
+    <string name="display_profile_window_title">Profile</string>
+
+    <!-- Text in the progress dialog that is shown while a user profile is loading -->
+    <string name="display_profile_loading_message">Loading profile&#8230;</string>
+
+    <!-- When displaying a profile, and that user has one or more interests specified, this string is displayed,
+    followed by a comma-separated list of the interests -->
+    <string name="display_profile_interests_title">Interests:</string>
+
+    <!-- Message displayed in a toast when the profile could not be loaded. {0} - the error message -->
+    <string name="display_profile_load_error">Error loading profile. Error: {0}</string>
+
+    <!-- Text displayed in the profile when the displayed person is following you. {0} - the name of the user -->
+    <string name="display_profile_user_following">you are following {0}</string>
+
+    <!-- Text displayed in the profile when you are following the user. {0} - the name of the user -->
+    <string name="display_profile_user_followed_by">{0} is following you</string>
+
+    <!-- Text in the button that displays the user's posts. {0} - the name of the user -->
+    <string name="display_profile_display_posts">Show posts by {0}</string>
+
+    <!-- Menu entry in profile activity: Follow this user -->
+    <string name="display_profile_menu_follow">Follow</string>
+
+    <!-- Menu entry in profile activity: Unfollow this user -->
+    <string name="display_profile_menu_unfollow">Unfollow</string>
+
+    <!-- Menu entry in profile activity: Displays the posts that this user has posted -->
+    <string name="display_profile_menu_posts">Posts</string>
+
+    <!-- Menu entry in profile activity: Go to the profile web page -->
+    <string name="display_profile_menu_profile_webpage">Show profile web page</string>
+</resources>

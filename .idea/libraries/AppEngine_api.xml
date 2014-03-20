@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="AppEngine_api">
+    <CLASSES>
+      <root url="jar://$APPENGINE$/lib/shared/jsp-api.jar!/" />
+      <root url="jar://$APPENGINE$/lib/shared/servlet-api.jar!/" />
+      <root url="jar://$APPENGINE$/lib/shared/el-api.jar!/" />
+      <root url="jar://$APPENGINE$/lib/user/appengine-api-1.0-sdk-1.4.3.jar!/" />
+      <root url="jar://$APPENGINE$/lib/user/appengine-jsr107cache-1.4.3.jar!/" />
+      <root url="jar://$APPENGINE$/lib/user/appengine-api-labs-1.4.3.jar!/" />
+      <root url="jar://$APPENGINE$/lib/user/jsr107cache-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

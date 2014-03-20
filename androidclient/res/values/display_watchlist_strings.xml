@@ -1,0 +1,16 @@
+<resources>
+    <!-- Menu option that allows the user to remove a message from the watchlist -->
+    <string name="display_watchlist_menu_remove_from_watchlist">Remove from watchlist</string>
+
+    <!-- Message that is displayed in the middle of the watchlist view when the watchlist is empty -->
+    <string name="display_watchlist_no_result_text">Watchlist is empty</string>
+
+    <!-- Window title of the watchlist activity -->
+    <string name="watchlist_window_title">Watchlist</string>
+
+    <!-- Message displayed in the progress dialog while the watchlist is being loaded -->
+    <string name="watchlist_loading">Loading&#8230;</string>
+
+    <!-- Message displayed in a toast when the watchlist failed to load. {0} - the error message -->
+    <string name="watchlist_error_load_messages">Error loading messages: {0}</string>
+</resources>

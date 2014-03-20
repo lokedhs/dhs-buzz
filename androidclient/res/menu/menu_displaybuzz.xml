@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/realtime_menu_group">
+        <item android:id="@+id/add_realtime"
+              android:title="@string/menu_displaybuzz_add_realtime"
+              android:icon="@drawable/ic_menu_add_realtime"/>
+        <item android:id="@+id/remove_realtime"
+              android:title="@string/menu_displaybuzz_remove_realtime"
+              android:icon="@drawable/ic_menu_remove_realtime"/>
+    </group>
+
+    <item android:id="@+id/mark_feed"
+          android:title="@string/menu_displaybuzz_add_to_watchlist"
+          android:icon="@drawable/ic_menu_flag_as_spam"/>
+
+    <item android:id="@+id/mute"
+          android:title="@string/menu_displaybuzz_mute"
+          android:icon="@drawable/ic_menu_mute"/>
+
+    <item android:id="@+id/menu_displaybuzz_more"
+          android:title="More"
+          android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item android:id="@+id/mark_as_liked"
+                  android:title="@string/menu_displaybuzz_like"
+                  android:icon="@drawable/ic_menu_like_this"/>
+
+            <item android:id="@+id/mark_as_spam"
+                  android:title="@string/menu_displaybuzz_spam"
+                  android:icon="@drawable/ic_menu_flag_as_spam"/>
+
+            <item android:id="@+id/reshare"
+                  android:title="Reshare"/>
+        </menu>
+    </item>
+</menu>

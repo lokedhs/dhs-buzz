@@ -1,0 +1,48 @@
+<resources>
+    <!-- Label in the post activity, indicating that a web page is to be shared -->
+    <string name="post_share_web_page">Share web page</string>
+
+    <!-- Label in the post activity over the list of images that will be posted -->
+    <string name="post_images">Images</string>
+
+    <!-- Text in the button that allows the user to attach a photo to the post -->
+    <string name="post_attach_photo">Attach photo</string>
+
+    <!-- Text in the checkbox that enables the location options -->
+    <string name="post_include_location">Include location</string>
+
+    <!-- Text in the button that posts a new buzz -->
+    <string name="post_button_title_label">Post</string>
+
+    <!-- Window title of the activity that allows the user to select the location based on his current geolocation -->
+    <string name="post_select_location_window_title">Select location</string>
+
+    <!--Window title of the activity that allows the user to select images from a shared web page -->
+    <string name="post_select_images_window_title">Select images from web page</string>
+
+    <!-- Error message displayed in a toast if the user tries to select images to post, but the device does not
+    have any application installed which can provide the image selection service. -->
+    <string name="post_no_image_viewer_available">No image viewer available</string>
+
+    <!-- Text in the location button when there is no GPS location available -->
+    <string name="post_button_label_location_not_available">Location not available</string>
+
+    <!-- This string is used in two places: In the location button as well as being the first entry in
+    the list of available place names in the place selection activity. It indicates the the user
+    does not wish to include the name of a specific place in his buzz post. Instead, only the
+    geolocation will be sent. -->
+    <string name="post_no_address">Your location will be sent as reported by the device</string>
+
+    <!-- Title in the dialog box that asks the user if he accepts having the location sent to Google -->
+    <string name="post_confirm_send_to_google_title">Allow sending location to Google?</string>
+
+    <!-- Content of the dialog box that asks the user if he accepts having the location sent to Google -->
+    <string name="post_confirm_send_to_google_content">Using this feature requires your current location to be sent to Google in order to search for the nearby locations. Do you wish to allow this?</string>
+
+    <!-- Text in the cancel button in the dialog box that asks the user if he accepts having the location sent to Google -->
+    <string name="post_confirm_send_to_google_cancel">Don&#8217;t allow</string>
+
+    <!-- Text in the allow button in the dialog box that asks the user if he accepts having the location sent to Google -->
+    <string name="post_confirm_send_to_google_allow">Allow</string>
+
+</resources>

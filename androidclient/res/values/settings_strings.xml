@@ -1,0 +1,93 @@
+<resources>
+    <!-- Image uploads - settings category name -->
+    <string name="settings_category_image_uploads">Image uploads</string>
+
+    <!-- Notifications - settings category name -->
+    <string name="settings_category_notifications">Notifications</string>
+
+    <!-- Feed - settings category name -->
+    <string name="settings_category_feed">Feed</string>
+
+    <!-- Text that is displayed in the account selection button when there is no account selected -->
+    <string name="settings_no_account">No account selected (image uploads disabled)</string>
+
+    <!-- Header for the account selection dialog -->
+    <string name="settings_select_account">Picasa account</string>
+
+    <!-- Summary text for the picasa account selection button. -->
+    <string name="settings_select_account_description">Picasa account to use for image uploads</string>
+
+    <!-- Window title of the feed settings activity -->
+    <string name="feed_settings_window_title">Feed settings</string>
+
+    <!-- Title and prompt for auto download replies setting -->
+    <string name="settings_feed_download_replies">Download replies</string>
+
+    <!-- Summary for download replies setting -->
+    <string name="settings_feed_download_replies_description">Automatically download replies when feed is synchronised</string>
+
+    <!-- Option for auto downloading of replies, always -->
+    <string name="settings_download_replies_always_option">Always</string>
+
+    <!-- Option for auto downloading of replies, never -->
+    <string name="settings_download_replies_never_option">Never</string>
+
+    <!-- Option for auto downloading of replies, only on wlan -->
+    <string name="settings_download_replies_only_wlan_option">Only on WLAN</string>
+
+    <!-- Prompt for the configuration option that allows the user to choose what screen to go
+    to when the application starts -->
+    <string name="settings_default_start_screen_heading">Startup screen</string>
+
+    <!-- Summary for default screen settings -->
+    <string name="settings_default_start_screen_heading_description">Screen to open when starting application</string>
+
+    <!-- Option for default start screen: Main -->
+    <string name="settings_default_screen_main_screen">Main screen</string>
+
+    <!-- Option for default start screen: Personal feed -->
+    <string name="settings_default_screen_personal">Personal feed</string>
+
+    <!-- Option for default start screen: Nearby -->
+    <string name="settings_default_screen_nearby">Nearby</string>
+
+    <!-- Description for the sound selection option -->
+    <string name="notification_settings_play_sound">Play sound</string>
+
+    <!-- Summary for the sound selection option -->
+    <string name="notification_settings_play_sound_description">Whether a sound should be played when a new reply to a followed message arrives</string>
+
+    <!-- Description for the vibration option -->
+    <string name="notification_settings_vibrate">Vibrate</string>
+
+    <!-- Summary for the vibration option -->
+    <string name="notification_settings_vibrate_description">Vibrate when a new reply arrives</string>
+
+    <!-- Text that explains the checkbox that controls whether realtime will always be enabled
+     when replying -->
+    <string name="notification_settings_realtime_enable">Follow after reply</string>
+
+    <!-- Summary for the realtime option -->
+    <string name="notification_settings_realtime_enable_description">Always follow replies to messages after commenting</string>
+
+    <!-- Title for the LED colour setting -->
+    <string name="notification_settings_option_ball">LED colour</string>
+
+    <!-- Summary for the LED colour setting -->
+    <string name="notification_settings_option_ball_description">Colour of the LED when a new message arrives</string>
+
+    <!-- Glowing ball colour option off -->
+    <string name="notification_settings_option_ball_off">Off</string>
+
+    <!-- Glowing ball colour option white -->
+    <string name="notification_settings_option_ball_white">White</string>
+
+    <!-- Glowing ball colour option red -->
+    <string name="notification_settings_option_ball_red">Red</string>
+
+    <!-- Glowing ball colour option green -->
+    <string name="notification_settings_option_ball_green">Green</string>
+
+    <!-- Glowing ball colour option blue -->
+    <string name="notification_settings_option_ball_blue">Blue</string>
+</resources>

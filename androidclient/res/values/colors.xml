@@ -1,0 +1,25 @@
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="error_colour">#ff0000</color>
+
+    <color name="background_unread">#404040</color>
+    <color name="background_read">#000000</color>
+
+    <color name="welcome_button_background_normal">#30e3e8f1</color>
+    <color name="welcome_button_background_pressed">#80ffffff</color>
+    <color name="welcome_button_background_selected">#ffff8200</color>
+
+    <color name="display_buzz_bar_colour">#a0e0f0ff</color>
+
+    <!-- From Google demo code -->
+    <color name="titlebar_title_background">#ff355689</color>
+    <color name="titlebar_title_text">#ffffffff</color>
+    <color name="titlebar_title_text_alt">#ff000000</color>
+    <color name="titlebar_foreground1">#ff355689</color>
+    <color name="titlebar_foreground2">#ff7081a3</color>
+    <color name="titlebar_background1">#ffffffff</color>
+    <color name="titlebar_background2">#ffd5ddeb</color>
+    <color name="titlebar_background3">#ffe3e8f1</color>
+    <color name="titlebar_title_separator">#40ffffff</color>
+</resources>

@@ -1,0 +1,15 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:DockLayoutPanel>
+        <g:center>
+            <g:SplitLayoutPanel>
+                <g:west size="20">
+                    <g:Tree ui:field="tree"/>
+                </g:west>
+                <g:center>
+                    <g:Label text="Test text"/>
+                </g:center>
+            </g:SplitLayoutPanel>
+        </g:center>
+    </g:DockLayoutPanel>
+</ui:UiBinder>

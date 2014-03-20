@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <RelativeLayout android:id="@+id/progress_bar_panel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true">
+
+        <ProgressBar android:id="@+id/load_images_progress"
+                     android:layout_marginTop="2dp"
+                     android:layout_width="fill_parent"
+                     android:layout_height="6dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentTop="true"
+                     android:indeterminate="false"
+                     style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <ProgressBar android:id="@+id/spinning_progress"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:layout_below="@id/load_images_progress"
+                     android:indeterminate="true"
+                     android:padding="4dp"
+                     style="@android:style/Widget.ProgressBar.Small"/>
+
+        <TextView android:id="@+id/title_text_view"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_toLeftOf="@id/spinning_progress"
+                  android:layout_below="@id/load_images_progress"
+                  android:text="Images on web page"/>
+
+    </RelativeLayout>
+
+    <Button android:id="@+id/select_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Attach Selected"
+            android:onClick="attachButtonClicked"/>
+
+    <ListView android:id="@+id/image_list_view"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/progress_bar_panel"
+              android:layout_alignParentLeft="true"
+              android:layout_above="@id/select_button"/>
+
+</RelativeLayout>

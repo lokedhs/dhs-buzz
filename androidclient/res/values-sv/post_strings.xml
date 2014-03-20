@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="post_attach_photo">Bifoga foto</string>
+    <string name="post_button_label_location_not_available">Position inte tillgänglig</string>
+    <string name="post_button_title_label">Skicka</string>
+    <string name="post_confirm_send_to_google_allow">Tillåt</string>
+    <string name="post_confirm_send_to_google_cancel">Tillåt inte</string>
+    <string name="post_confirm_send_to_google_content">För att använda denna funktion måste din nuvaranda position
+        skickas till Google så att denna applikation kan erhålla en lista på platser i närheten. Vill du tillåta detta?
+    </string>
+    <string name="post_confirm_send_to_google_title">Tillåt att positionen skickas till Google?</string>
+    <string name="post_images">Foton</string>
+    <string name="post_include_location">Inkludera position</string>
+    <string name="post_no_address">Telefonens position kommer att skickas</string>
+    <string name="post_no_image_viewer_available">Ingen bildvisare är tillgänglig</string>
+    <string name="post_select_images_window_title">Välj bilder fårn webbsidan</string>
+    <string name="post_select_location_window_title">Välj plats</string>
+    <string name="post_share_web_page">Dela webbsida</string>
+</resources>

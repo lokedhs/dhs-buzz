@@ -1,0 +1,30 @@
+<resources>
+    <!-- Message in progress dialog when the feed is loading from cache or network -->
+    <string name="display_feed_loading">Loading feed</string>
+
+    <!-- Message that is displayed in the button that allows the user to load more messages -->
+    <string name="display_feed_load">Load more messages&#8230;</string>
+
+    <!-- Error message that is displayed when trying to open the "nearby" view and the location is not accessible -->
+    <string name="display_feed_failed_to_get_location">Failed to get location. You might need to turn on the GPS.</string>
+
+    <!-- Text displayed in the summary row that describes how many replies
+    the message has. {0} - the number of replies -->
+    <string name="display_feed_heading_number_of_replies">{0,number} {0,choice,0#replies.|1#reply.|1&lt;replies.}</string>
+
+    <!-- Title in the display feed activity when viewing the personal feed -->
+    <string name="display_feed_personal">Personal</string>
+
+    <!-- Title in the display feed activity when viewing the nearby feed -->
+    <string name="display_feed_nearby">Nearby</string>
+
+    <!-- Error message displayed in a toast if the feed failed to load. {0} - the error message -->
+    <string name="display_feed_error_feed_load">Error loading feed. Error: {0}</string>
+
+    <!-- The message on top of the display buzz activity that indicates the time since last reload.
+     {0} is the time, formatted by the date diff generator (see separate translation strings for this) -->
+    <string name="display_feed_last_reload_date">Last reload: {0}</string>
+
+    <!-- Menu entry in the the feed screen context menu that reloads the feed -->
+    <string name="display_feed_menu_reload">Reload</string>
+</resources>

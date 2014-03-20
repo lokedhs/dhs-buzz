@@ -1,0 +1,19 @@
+<resources>
+    <!-- Text in the feed button on the welcome screen -->
+    <string name="welcome_screen_button_feed">Feed</string>
+
+    <!-- Text in the nearby button on the welcome screen -->
+    <string name="welcome_screen_button_nearby">Nearby</string>
+
+    <!-- Text in the realtime search button on the welcome screen -->
+    <string name="welcome_screen_button_watchlist">Realtime</string>
+
+    <!-- Text in the post button on the welcome screen -->
+    <string name="welcome_screen_button_post">Post</string>
+
+    <!-- Text in the user search button on the welcome screen -->
+    <string name="welcome_screen_button_user_search">People</string>
+
+    <!-- Text in the map button on the welcome screen -->
+    <string name="welcome_screen_button_map">World</string>
+</resources>

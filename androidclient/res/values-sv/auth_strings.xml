@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="auth_request_authentication_with_service">Kommunicerar med Google-tjänster</string>
+    <string name="auth_requesting_access">Begär tillgång till Google-tjänster</string>
+    <string name="authenticate_error">Fel: {0}</string>
+    <string name="authenticate_request_authentication_button_label">Begär tillgång till Google-tjänster</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory title="@string/settings_category_image_uploads">
+        <ListPreference android:title="@string/settings_select_account"
+                        android:summary="@string/settings_select_account_description"
+                        android:defaultValue=""
+                        android:key="account"/>
+    </PreferenceCategory>
+    <PreferenceCategory title="@string/settings_category_image_uploads">
+        <CheckBoxPreference android:title="@string/notification_settings_play_sound"
+                            android:summary="@string/notification_settings_play_sound_description"
+                            android:defaultValue="false"
+                            android:key="soundMode"/>
+        <CheckBoxPreference android:title="@string/notification_settings_vibrate"
+                            android:summary="@string/notification_settings_vibrate_description"
+                            android:defaultValue="false"
+                            android:key="vibrateActive"/>
+        <ListPreference android:title="@string/notification_settings_option_ball"
+                        android:summary="@string/notification_settings_option_ball_description"
+                        android:defaultValue="off"
+                        android:key="flashColour"
+                        android:entries="@array/ball_colour_names"
+                        android:entryValues="@array/ball_colour_values"/>
+        <CheckBoxPreference android:title="@string/notification_settings_realtime_enable"
+                            android:summary="@string/notification_settings_realtime_enable_description"
+                            android:defaultValue="false"
+                            android:key="realtimePost"/>
+    </PreferenceCategory>
+    <PreferenceCategory title="@string/settings_category_feed">
+        <ListPreference android:title="@string/settings_default_start_screen_heading"
+                        android:summary="@string/settings_default_start_screen_heading_description"
+                        android:key="startScreen"
+                        android:defaultValue="main_screen"
+                        android:entries="@array/default_screen_names"
+                        android:entryValues="@array/default_screen_values"/>
+        <ListPreference android:title="@string/settings_feed_download_replies"
+                        android:summary="@string/settings_feed_download_replies_description"
+                        android:key="downloadReplies"
+                        android:defaultValue="always"
+                        android:entries="@array/download_replies_names"
+                        android:entryValues="@array/download_replies_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+          android:title="Settings"
+          android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/search"
+          android:title="Search"
+          android:icon="@android:drawable/ic_menu_search"/>
+
+    <item android:id="@+id/menu_displaybuzz_more"
+          android:title="@string/menu_more"
+          android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item android:id="@+id/bookmarks"
+                  android:title="Bookmarks"/>
+            <item android:id="@+id/error_list"
+                  android:title="Failed Tasks"/>
+            <item android:id="@+id/debug_info"
+                  android:title="Debug Info"/>
+            <item android:id="@+id/display_new"
+                  android:title="New replies"/>
+            <item android:id="@+id/beta_feedback_button"
+                  android:title="Beta feedback"/>
+        </menu>
+    </item>
+</menu>

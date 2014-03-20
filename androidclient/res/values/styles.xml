@@ -1,0 +1,111 @@
+<resources>
+    <style name="settingsButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="listStyle">
+        <item name="android:divider">#60ffffff</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="highContrast">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorLink">#ffa0a0ff</item>
+    </style>
+
+    <style name="TitleBar">
+        <item name="android:id">@id/titlebar_title_container</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/titlebar_title_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/titlebar_title_background</item>
+    </style>
+
+    <style name="TitleBarAction">
+        <item name="android:layout_width">@dimen/titlebar_title_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/title_button</item>
+    </style>
+
+    <style name="TitleBarProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_marginTop">14dip</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="TitleBarSeparator">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/titlebar_title_separator</item>
+    </style>
+
+    <style name="TitleBarLogo">
+        <item name="android:id">@id/title_logo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TitleBarSpring">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TitleBarText">
+        <item name="android:id">@id/title_text</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/titlebar_text_size_medium</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titlebar_title_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TitleBarSmall" parent="TitleBar">
+        <item name="android:layout_height">@dimen/titlebar_title_small_height</item>
+    </style>
+    <style name="TitleBarTextSmall" parent="TitleBarText">
+        <item name="android:textSize">@dimen/titlebar_text_size_small</item>
+    </style>
+
+    <style name="welcome_screen_root_spring">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="welcome_button_style">
+        <item name="android:layout_width">@dimen/welcome_button_width</item>
+        <item name="android:layout_height">@dimen/welcome_button_height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/welcome_button_cols</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="welcome_screen_image_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="welcome_screen_description_name_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffb0b0b0</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="welcome_screen_icon_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

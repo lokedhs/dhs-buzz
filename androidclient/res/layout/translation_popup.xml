@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp">
+        <Spinner android:id="@+id/language_selection"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentLeft="true"/>
+
+        <ScrollView android:id="@+id/scroll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/language_selection"
+                    android:layout_alignParentLeft="true"
+                    android:paddingTop="2dp">
+            <TextView android:id="@+id/content"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      style="@style/highContrast"
+                      android:textSize="14sp"/>
+        </ScrollView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/scroll"
+                  android:text="@string/powered_by"/>
+        <!--
+        <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/scroll"
+                  android:src="@drawable/powered_by_google_black"/>
+        -->
+    </RelativeLayout>
+</LinearLayout>

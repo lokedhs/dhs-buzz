@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="display_buzz_delete_content">Vill du verkligen ta bort detta svar?</string>
+    <string name="display_buzz_delete_keep">Behåll</string>
+    <string name="display_buzz_delete_ok">Ta bort</string>
+    <string name="display_buzz_delete_title">Ta bort svar</string>
+    <string name="display_buzz_error_loading_buzz">Fel när meddelandet laddades: {0}</string>
+    <string name="display_buzz_error_loading_replies">Fel när svaren laddades. Var vänlig försök senare. Felmedelande:
+        {0}
+    </string>
+    <string name="display_buzz_load_replies">{0,choice,0#Inga svar (ladda ändå)|1#Hämta ett svar|1&lt;Hämta {0,number}
+        svar}…
+    </string>
+    <string name="display_buzz_load_replies_row_header">Ladda svar…</string>
+    <string name="display_buzz_loading_replies">Laddar…</string>
+    <string name="display_buzz_mark_spam">Markera som spam. Är du säker?</string>
+    <string name="display_buzz_mark_spam_cancel">Inte spam</string>
+    <string name="display_buzz_mark_spam_confirm">Spam</string>
+    <string name="display_buzz_menu_delete_reply">Ta bort svar</string>
+    <string name="display_buzz_menu_edit_post">Redigera</string>
+    <string name="display_buzz_menu_edit_reply">Redigera</string>
+    <string name="display_buzz_menu_links_header">Länkar…</string>
+    <string name="display_buzz_menu_mute">Dölj</string>
+    <string name="display_buzz_menu_reply_to">Skriv svar till {0}</string>
+    <string name="display_buzz_menu_start_profile">Visa användarprofil</string>
+    <string name="display_buzz_menu_title_post">Buzz från {0}</string>
+    <string name="display_buzz_menu_title_reply">Svar från {0}</string>
+    <string name="display_buzz_missing_location">Ingen adress</string>
+    <string name="display_buzz_mute_message">Dölj detta meddelande. Är du säker?</string>
+    <string name="display_buzz_mute_message_cancel">Dölj inte</string>
+    <string name="display_buzz_mute_message_confirm">Dölj</string>
+    <string name="display_buzz_posted_from">Från {0}</string>
+    <string name="display_buzz_reshared_post_by">Delad från {0}</string>
+    <string name="display_buzz_show_hidden">Visa {0,number} {0,choice,0#dolda|1#dolt|1&lt;dolda} svar</string>
+    <string name="display_buzz_title">Buzz från {0}</string>
+    <string name="display_buzz_view_location_in_map">Visa på karta</string>
+    <string name="display_buzz_view_on_web">Visa på Googles webbsida</string>
+    <string name="display_loading_progress_message">Laddar…</string>
+    <string name="menu_displaybuzz_add_realtime">Notifiera vid svar</string>
+    <string name="menu_displaybuzz_add_to_watchlist">Markera som intressant</string>
+    <string name="menu_displaybuzz_like">Gilla</string>
+    <string name="menu_displaybuzz_mute">Dölj</string>
+    <string name="menu_displaybuzz_remove_realtime">Notifiera inte vid svar</string>
+    <string name="menu_displaybuzz_spam">Markera som spam</string>
+</resources>

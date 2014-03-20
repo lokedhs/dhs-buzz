@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <com.google.android.maps.MapView android:id="@+id/buzz_map_view"
+                                     android:layout_width="fill_parent"
+                                     android:layout_height="fill_parent"
+                                     android:clickable="true"
+                                     android:apiKey="0OgNOQzENsDwJvNtJfn7EqGQ4_WlIFabouuVl5w"/>
+    <!-- main development debug key: 0OgNOQzENsDwJvNtJfn7EqGQ4_WlIFabouuVl5w -->
+    <!-- laptop debug key: 0OgNOQzENsDzKlAPRHMVGaHUf_qfm-nk46YGGbQ -->
+    <!-- production key: 0OgNOQzENsDzhFcu7P-22TeEry2KRAc_axwPQmA -->
+</LinearLayout>

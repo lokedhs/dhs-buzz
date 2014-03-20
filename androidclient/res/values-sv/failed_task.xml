@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="failed_task_row_cancel">Ta bort</string>
+    <string name="failed_task_row_resend">Försök igen</string>
+    <string name="failed_tasks_cancel_all">Ta bort alla</string>
+    <string name="failed_tasks_start_all">Starta alla</string>
+</resources>

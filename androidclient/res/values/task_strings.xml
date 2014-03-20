@@ -1,0 +1,74 @@
+<resources>
+    <!-- Text in the notification bar when a restartable task have failed -->
+    <string name="task_restartable_failed_notification">Tasks have failed</string>
+
+    <!-- Title text in the notification bar entry when a restartable task have failed -->
+    <string name="task_restartable_failed_title">Buzz tasks failed</string>
+
+    <!-- Content text in the notification bar entry when a restartable task have failed -->
+    <string name="task_restartable_failed_content">Select to re-issue or cancel requests</string>
+
+    <!-- Text in the notification bar when a non-restartable task have failed -->
+    <string name="task_non_restart_failed_notification">Tasks have failed</string>
+
+    <!-- Title in the notification bar when a non-restartable task have failed -->
+    <string name="task_non_restart_failed_title">"Error performing Buzz tasks"</string>
+
+    <!-- Ticker text for delete reply task -->
+    <string name="task_delete_reply_ticker">Deleting reply</string>
+
+    <!-- Ticker text for edit post task -->
+    <string name="task_edit_post_ticker">Updating post</string>
+
+    <!-- Ticker text for edit reply task -->
+    <string name="task_edit_reply_ticker">Updating reply</string>
+
+    <!-- Ticker text for load more task -->
+    <string name="task_load_more_ticker">Loading more activities</string>
+
+    <!-- Ticker text for mark as liked task -->
+    <string name="task_mark_as_liked_ticker">Marking as liked</string>
+
+    <!-- Ticker text for mark as spam task -->
+    <string name="task_mark_as_spam_ticker">Marking as spam</string>
+
+    <!-- Ticker for mute feed task -->
+    <string name="task_mute_feed_ticker">Muting post</string>
+
+    <!-- Ticker for post message task. {0} - the first few characters of the message -->
+    <string name="task_post_message_ticker">New post: {0}</string>
+
+    <!-- Error message displayed when the user wants to upload images with a post and the
+    picasa account that was specified can't be found -->
+    <string name="task_post_message_account_not_exist">Account {0} not available</string>
+
+    <!-- Ticker for post reply task -->
+    <string name="task_post_reply_ticker">Posting reply</string>
+
+    <!-- Ticker for prune database task -->
+    <string name="task_prune_database_ticker">Purging database</string>
+
+    <!-- Ticker for request realtime task. {0} - name of the person who sent the message that is being followed -->
+    <string name="task_register_realtime_ticker">Requesting realtime updates for buzz from {0}</string>
+
+    <!-- Ticker for sync feed task -->
+    <string name="task_sync_feed_ticker">Downloading messages</string>
+
+    <!-- Ticker for watchlist task when adding message -->
+    <string name="task_update_watchlist_ticker_add">Add to watchlist</string>
+
+    <!-- Ticker for watchlist task when removing message -->
+    <string name="task_update_watchlist_ticker_remove">Remove from watchlist</string>
+
+    <!-- Ticker for update following task when a user is being followed. {0} - the name of the user -->
+    <string name="task_update_following_ticker_start">Start following {0}</string>
+
+    <!-- Ticker for update following task when a user is being unfollowed. {0} - the name of the user -->
+    <string name="task_update_following_ticker_stop">Stop following {0}</string>
+
+    <!-- Ticker when registering realtime feeds -->
+    <string name="task_register_realtime_feed_task_ticker_add">Registering for realtime feed</string>
+
+    <!-- Ticker when removing realtime feeds -->
+    <string name="task_register_realtime_feed_task_ticker_remove">Cancel realtime feed</string>
+</resources>

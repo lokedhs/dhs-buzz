@@ -1,0 +1,128 @@
+<resources>
+    <!-- The window title when a buzz is displayed. {0} - the name of the sender -->
+    <string name="display_buzz_title">Buzz from {0}</string>
+
+    <!-- Error message that is shown when there was an error downloading the reply feed for a single Buzz.
+     The message is displayed in a toast popup. Processed by MessageFormat. {0} - the error message -->
+    <string name="display_buzz_error_loading_replies">Error downloading replies. Please try again later. Error: {0}</string>
+
+    <!-- Error message that is shown when there was an error loading the buzz message itself. {0} - the error message -->
+    <string name="display_buzz_error_loading_buzz">Error loading message. Error: {0}</string>
+
+    <!-- Message displayed in the "load replies" button when viewing a buzz. This message is processed
+     by MessageFormat with {0} being the number of replies to load. -->
+    <string name="display_buzz_load_replies">{0,choice,0#No replies (load anyway)|1#Load one reply|1&lt;Load {0,number} replies}&#8230;</string>
+
+    <!-- Message displayed while the replies to a buzz is loading -->
+    <string name="display_buzz_loading_replies">Loading&#8230;</string>
+
+    <!-- Text that is displayed in the button that represents the hidden messages in the buzz view. Processed by
+     MessageFormat with {0} being the number of messages that are hidden -->
+    <string name="display_buzz_show_hidden">Show {0,number} hidden {0,choice,1#reply|1&lt;replies}</string>
+
+    <!-- Text in dialog box that asks the user to confirm muting of a message -->
+    <string name="display_buzz_mute_message">Mute this message. Are you sure?</string>
+
+    <!-- Text in dialog button that confirms that the user wishes to mute the message -->
+    <string name="display_buzz_mute_message_confirm">Mute</string>
+
+    <!-- Text in dialog button that cancels the mute activity -->
+    <string name="display_buzz_mute_message_cancel">Don&#8217;t mute</string>
+
+    <!-- Text in dialog box that asks the user to confirm marking a message as spam -->
+    <string name="display_buzz_mark_spam">Mark as spam. Are you sure?</string>
+
+    <!-- Text in dialog button that confirms that the message is spam -->
+    <string name="display_buzz_mark_spam_confirm">Spam</string>
+
+    <!-- Text in dialog button that cancels the mark as spam activity -->
+    <string name="display_buzz_mark_spam_cancel">Not spam</string>
+
+    <!-- Text that is displayed with the buzz text that explains that the buzz was reshared. Processed
+     by MessageFormat. {0} is the name of the poster of the original buzz. Note that the resulting formatted
+     string will subsequently be processed by Html.fromHtml(), which means that some characters may have to
+     be escaped. -->
+    <string name="display_buzz_reshared_post_by">Reshared from {0}</string>
+
+    <!-- Text that is displayed with the buzz text that displays source of the buzz.
+    Processed by MessageFormat. {0} is the name of the source (for example "buzz" or "google reader"). -->
+    <string name="display_buzz_posted_from">From {0}</string>
+
+    <!-- Text in the context menu entry that allows the user to view the message on the Google web site -->
+    <string name="display_buzz_view_on_web">View on Google web site</string>
+
+    <!-- Text in the menu that allows the user to view geocode on the map -->
+    <string name="display_buzz_view_location_in_map">View on map</string>
+
+    <!-- Title of the context menu when selecting a message. Processed by MessageFormat.{0} is the name
+    of the user that wrote the message. -->
+    <string name="display_buzz_menu_title_post">Buzz by {0}</string>
+
+    <!-- Text in the submenu that holds the links that can be found in the buzz content -->
+    <string name="display_buzz_menu_links_header">Links&#8230;</string>
+
+    <!-- Text in the submenu that holds the hashtags that can be found in the buzz content -->
+    <string name="display_buzz_menu_hashtags_header">Hashtags&#8230;</string>
+
+    <!-- Title of the context menu when selecting a reply. Processed by MessageFormat.{0} is the name
+    of the user that wrote the reply. -->
+    <string name="display_buzz_menu_title_reply">Reply by {0}</string>
+
+    <!-- Text in the context menu that allows the user to edit a post -->
+    <string name="display_buzz_menu_edit_post">Edit</string>
+
+    <!-- Context menu entry that allows the user to insert the reference to a user in the reply field.
+     This field is processed by MessageFormat. {0} is the name of the user. -->
+    <string name="display_buzz_menu_reply_to">Reply to {0}</string>
+
+    <!-- Text in the menu that allows the user to edit a reply -->
+    <string name="display_buzz_menu_edit_reply">Edit</string>
+
+    <!-- Text in the menu that allows the user to delete a reply -->
+    <string name="display_buzz_menu_delete_reply">Delete reply</string>
+
+    <!-- Text in the menu entry that allows the user to open the profile window -->
+    <string name="display_buzz_menu_start_profile">Show user profile</string>
+
+    <!-- Text in the menu entry that allows the user to mute the specific post -->
+    <string name="display_buzz_menu_mute">Mute post</string>
+
+    <!-- Text in the "start realtime" button in the buzz context menu -->
+    <string name="menu_displaybuzz_add_realtime">Notify on replies</string>
+
+    <!-- Text in the "stop realtime" button in the buzz context menu -->
+    <string name="menu_displaybuzz_remove_realtime">Don&#8217;t notify on replies</string>
+
+    <!-- Menu entry that adds the current buzz to the watchlist -->
+    <string name="menu_displaybuzz_add_to_watchlist">Add to watchlist</string>
+
+    <!-- Text in the "like" button in the buzz context menu -->
+    <string name="menu_displaybuzz_like">Like</string>
+
+    <!-- Text in the "mute" button in the buzz context menu -->
+    <string name="menu_displaybuzz_mute">Mute</string>
+
+    <!-- Text in the "spam" button in the buzz context menu -->
+    <string name="menu_displaybuzz_spam">Mark as spam</string>
+
+    <!-- Message in the progress dialog while a message loaded -->
+    <string name="display_loading_progress_message">Loading&#8230;</string>
+
+    <!-- Text displayed in place of the address when the buzz has a geolocation but no address or location name attached to it -->
+    <string name="display_buzz_missing_location">Empty address</string>
+
+    <!-- Text in the button that allows the user to load the replies to a buzz -->
+    <string name="display_buzz_load_replies_row_header">Load replies&#8230;</string>
+
+    <!-- Delete reply dialog: Title -->
+    <string name="display_buzz_delete_title">Delete reply</string>
+
+    <!-- Delete reply dialog: Question -->
+    <string name="display_buzz_delete_content">Really delete this reply?</string>
+
+    <!-- Delete reply dialog: Delete button -->
+    <string name="display_buzz_delete_ok">Delete</string>
+
+    <!-- Delete reply dialog: Keep button -->
+    <string name="display_buzz_delete_keep">Keep</string>
+</resources>

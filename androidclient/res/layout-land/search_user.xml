@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <RelativeLayout android:id="@+id/search_controls"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+
+        <Spinner android:id="@+id/type_selection"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"/>
+
+        <Button android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/search_user_begin"/>
+
+        <EditText android:id="@+id/search_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_toRightOf="@id/type_selection"
+                  android:layout_toLeftOf="@id/search_button"
+                  android:hint="@string/search_user_text_view_title"
+                  android:autoText="true"
+                  android:singleLine="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/paging_controls"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/search_controls">
+        <TextView android:id="@+id/user_list_result"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+    <ListView android:id="@+id/user_list"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@id/paging_controls"
+              android:layout_alignParentBottom="true"
+              style="@style/listStyle"/>
+
+</RelativeLayout>

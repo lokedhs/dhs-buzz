@@ -1,0 +1,4 @@
+<resources>
+    <!-- Error message displayed if there was an error loading the list of places. {0} - the error message -->
+    <string name="select_location_loading_failed">Failed to load locations. Error: {0}</string>
+</resources>

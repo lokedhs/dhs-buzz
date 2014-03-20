@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="date_number_days_ago">{0} {0,choice,1#dag|1&lt;dagar} sedan</string>
+    <string name="date_number_hours_ago">{0} {0,choice,1#timme|1&lt;timmar} sedan</string>
+    <string name="date_number_minutes_ago">{0} {0,choice,1#minut|1&lt;minuter} sedan</string>
+    <string name="dates_less_than_one_minute_ago">mindre än en minut sedan</string>
+</resources>

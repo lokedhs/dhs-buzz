@@ -1,0 +1,7 @@
+<resources>
+    <!-- Header in the reshare activity. {0} - name of the sender of the reshared message -->
+    <string name="reshare_sender_name">Reshare Buzz from {0}</string>
+
+    <!-- The hint text displayed in the comment text field before typing anything -->
+    <string name="reshare_content_hint">Reshare comment</string>
+</resources>

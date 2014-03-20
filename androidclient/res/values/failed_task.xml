@@ -1,0 +1,13 @@
+<resources>
+    <!-- Text in the button in the error view that allows the user to rerun all failed tasks -->
+    <string name="failed_tasks_start_all">Start All</string>
+
+    <!-- Text in the button in the error view that allows the user to cancel all failed tasks -->
+    <string name="failed_tasks_cancel_all">Cancel All</string>
+
+    <!-- Text in the button on the failed task row that allows the user to discard the failed task -->
+    <string name="failed_task_row_cancel">Discard</string>
+
+    <!-- Text in the button on the failed task row that allows the user to resend the failed task -->
+    <string name="failed_task_row_resend">Retry</string>
+</resources>
